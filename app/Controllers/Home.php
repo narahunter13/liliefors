@@ -6,6 +6,10 @@ class Home extends BaseController
 {
 	public function index()
 	{
-		return view('welcome_message');
+		$title = "Liliefors 2021";
+		$data = [
+			'title' => $title
+		];
+		return view('_layout', $data);
 	}
 }
