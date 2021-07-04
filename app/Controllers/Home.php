@@ -10,6 +10,6 @@ class Home extends BaseController
 		$data = [
 			'title' => $title
 		];
-		return view('_layout', $data);
+		return view('landing_page', $data);
 	}
 }
