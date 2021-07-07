@@ -101,7 +101,7 @@
             <a class="mx-4 masuk-button rounded-md py-2 px-4 font-medium" href="#">MASUK</a>
         </div>
     </nav>
-    <nav id="navbar_mobile" class="flex w-full flex-row justify-between p-2 sticky top-0 md:hidden z-50">
+    <nav id="navbar_mobile" class="flex w-full flex-row justify-between p-2 sticky top-0 lg:hidden z-50">
         <div class="flex flex-row justify-center">
             <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="64px" height="64px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 9144 9144" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
                 <defs>
@@ -183,7 +183,7 @@
             <div class="border border-white mx-2 h-2/3 my-auto"></div>
             <h5 class="title text-lg text-white text-center flex flex-col justify-center">L I L I E F O R S</h5>
         </div>
-        <div class="flex flex-col justify-center w-1/12 mr-3">
+        <div class="flex flex-col justify-center w-12 mr-3">
             <div class="bg-white rounded w-full h-1 my-1"></div>
             <div class="bg-white rounded w-full h-1 my-1"></div>
             <div class="bg-white rounded w-full h-1 my-1"></div>
