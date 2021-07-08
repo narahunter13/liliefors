@@ -28,3 +28,15 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
+
+
+/*
+  Alert Animation
+*/
+function click_alert() {
+  var alert = document.getElementsByClassName('alert')[0];
+  alert.style.opacity = 0;
+  setTimeout(function() {
+    alert.style.display = 'none';
+  }, 300);
+}

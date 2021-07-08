@@ -53,7 +53,7 @@ footer, section {
 
 #kompetisi h5 {
     position: relative;
-    width: fit-content;
+    width: min-content;
     margin: 0 auto;
 }
 
@@ -101,7 +101,7 @@ footer, section {
 
 #klinik h5 {
     position: relative;
-    width: fit-content;
+    width: min-content;
 }
 
 #klinik h5::after {
@@ -116,7 +116,7 @@ footer, section {
 
 #galeri h5 {
     position: relative;
-    width: fit-content;
+    width: min-content;
 }
 
 #galeri h5::after {
