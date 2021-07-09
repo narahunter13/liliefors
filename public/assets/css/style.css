@@ -128,3 +128,23 @@ footer, section {
     height: 3px;
     background-color: #e4e5c6;
 }
+
+.nav-mobile {
+    background-color: #045753;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-mobile i {
+    font-size: 4rem;
+}
+
+#burger-background {
+    display: none;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+#burger-navigation {
+    transform: translateX(-100%);
+    transition: all 0.4s;
+}

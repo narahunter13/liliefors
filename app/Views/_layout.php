@@ -97,8 +97,8 @@
             <a class="mx-4 sub-link" href="#kompetisi">KOMPETISI</a>
             <a class="mx-4 sub-link" href="#klinik">KLINIK</a>
             <a class="mx-4 sub-link" href="#galeri">GALERI</a>
-            <a class="mx-4 sub-link" href="#registrasi">REGISTRASI</a>
-            <a class="mx-4 masuk-button rounded-md py-2 px-4 font-medium" href="#">MASUK</a>
+            <a class="mx-4 sub-link" href="/registrasi">REGISTRASI</a>
+            <a class="mx-4 masuk-button rounded-md py-2 px-4 font-medium" href="/masuk">MASUK</a>
         </div>
     </nav>
     <nav id="navbar_mobile" class="flex w-full flex-row justify-between p-2 sticky top-0 lg:hidden z-50">
