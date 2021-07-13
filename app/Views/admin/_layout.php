@@ -106,14 +106,12 @@
     <div id="burger-navigation" class="h-screen nav-mobile w-8/12 absolute top-0 z-50 text-center lg:hidden">
         <div class="flex flex-col items-center py-4 pt-8 mb-4">
             <i class="fas fa-user-circle text-white mb-4"></i>
-            <h5 class="text-base text-center font-normal text-white"> HALO, RIFKY!</h5>
+            <h5 class="text-base text-center font-normal text-white"> HALO, ADMIN</h5>
         </div>
         <div class="flex flex-col items-center">
-            <a class="text-white text-base font-normal rounded-lg py-4 w-10/12 mx-4 my-2<?= $title == 'Pengumuman' ? ' active' : '';?>" href="/dashboard/pengumuman">PENGUMUMAN</a>
-            <a class="text-white text-base font-normal rounded-lg py-4 w-10/12 mx-4 my-2<?= $title == 'Linimasa' ? ' active' : '';?>" href="/dashboard/linimasa">LINIMASA</a>
-            <a class="text-white text-base font-normal rounded-lg py-4 w-10/12 mx-4 my-2<?= $title == 'Sunting Profil' ? ' active' : '';?>" href="/dashboard/sunting">SUNTING PROFIL</a>
-            <a class="text-white text-base font-normal rounded-lg py-4 w-10/12 mx-4 my-2" href="#">DAFTAR LILIEFORS</a>
-            <a class="text-white text-base font-normal rounded-lg py-4 w-10/12 mx-4 my-2" href="#">DAFTAR LILIECOMP</a>
+            <a class="text-white text-base font-normal rounded-lg py-4 w-10/12 mx-4 my-2<?= $title == 'Pengumuman' ? ' active' : '';?>" href="/admin/pengumuman">PENGUMUMAN</a>
+            <a class="text-white text-base font-normal rounded-lg py-4 w-10/12 mx-4 my-2<?= $title == 'Kode Referal' ? ' active' : '';?>" href="/admin/kode_referal">KODE REFERAL</a>
+            <a class="text-white text-base font-normal rounded rounded-lg py-4 w-10/12 mx-4 my-2<?= $title == 'Konfirmasi Pembayaran' ? ' active' : '';?>" href="/admin/konfirmasi_pembayaran">KONFIRMASI PEMBAYARAN</a>
             <a class="text-white text-base font-normal rounded-lg py-4 w-10/12 mx-4 my-2" href="#">KELUAR</a>
         </div>
     </div>
@@ -122,14 +120,12 @@
         <aside class="hidden lg:block overflow-y-scroll h-screen w-3/12 z-50 text-center">
             <div class="flex flex-col items-center py-4 pt-8 mb-4">
                 <i class="fas fa-user-circle text-white mb-4"></i>
-                <h5 class="text-base text-center font-normal text-white"> HALO, RIFKY!</h5>
+                <h5 class="text-base text-center font-normal text-white"> HALO, ADMIN</h5>
             </div>
             <div class="flex flex-col items-center">
-                <a class="text-white text-base font-normal rounded rounded-lg py-4 w-10/12 mx-4 my-2<?= $title == 'Pengumuman' ? ' active' : '';?>" href="/dashboard/pengumuman">PENGUMUMAN</a>
-                <a class="text-white text-base font-normal rounded rounded-lg py-4 w-10/12 mx-4 my-2<?= $title == 'Linimasa' ? ' active' : '';?>" href="/dashboard/linimasa">LINIMASA</a>
-                <a class="text-white text-base font-normal rounded rounded-lg py-4 w-10/12 mx-4 my-2<?= $title == 'Sunting Profil' ? ' active' : '';?>" href="/dashboard/sunting">SUNTING PROFIL</a>
-                <a class="text-white text-base font-normal rounded rounded-lg py-4 w-10/12 mx-4 my-2" href="#">DAFTAR LILIEFORS</a>
-                <a class="text-white text-base font-normal rounded rounded-lg py-4 w-10/12 mx-4 my-2" href="#">DAFTAR LILIECOMP</a>
+                <a class="text-white text-base font-normal rounded rounded-lg py-4 w-10/12 mx-4 my-2<?= $title == 'Pengumuman' ? ' active' : '';?>" href="/admin/pengumuman">PENGUMUMAN</a>
+                <a class="text-white text-base font-normal rounded rounded-lg py-4 w-10/12 mx-4 my-2<?= $title == 'Kode Referal' ? ' active' : '';?>" href="/admin/kode_referal">KODE REFERAL</a>
+                <a class="text-white text-base font-normal rounded rounded-lg py-4 w-10/12 mx-4 my-2<?= $title == 'Konfirmasi Pembayaran' ? ' active' : '';?>" href="/admin/konfirmasi_pembayaran">KONFIRMASI PEMBAYARAN</a>
                 <a class="text-white text-base font-normal rounded rounded-lg py-4 w-10/12 mx-4 my-2" href="#">KELUAR</a>
             </div>
         </aside>

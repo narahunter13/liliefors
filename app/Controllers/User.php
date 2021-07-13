@@ -4,33 +4,33 @@ namespace App\Controllers;
 
 use App\Controllers\BaseController;
 
-class Dashboard extends BaseController
+class User extends BaseController
 {
 	public function index()
 	{
 		//
 		$data['title'] = 'Tentang Kami';
-		return view('dashboard/index', $data);
+		return view('user/index', $data);
 	}
 
 	public function pengumuman()
 	{
 		//
 		$data['title'] = 'Pengumuman';
-		return view('dashboard/pengumuman', $data);
+		return view('user/pengumuman', $data);
 	}
 
 	public function linimasa()
 	{
 		//
 		$data['title'] = 'Linimasa';
-		return view('dashboard/linimasa', $data);
+		return view('user/linimasa', $data);
 	}
 
 	public function sunting()
 	{
 		//
 		$data['title'] = 'Sunting Profil';
-		return view('dashboard/sunting', $data);
+		return view('user/sunting', $data);
 	}
 }
