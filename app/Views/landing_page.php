@@ -98,7 +98,7 @@
         <img class="h-60 w-60 md:h-80 md:w-80" src="/assets/img/maskot-02.svg">
         <div class="flex flex-col justify-center md:mr-8">
             <h4 class="text-base font-regular text-white">FOTOGRAFI</h5>
-                <a href="#" class="bg-white rounded daftar text-center px-4 py-2 mt-4 md:w-1/2">DAFTAR LILIECOMP FOTOGRAFI</a>
+                <a href="/liliecomp/fotografi" class="bg-white rounded daftar text-center px-4 py-2 mt-4 md:w-1/2">DAFTAR LILIECOMP FOTOGRAFI</a>
                 <p class="mt-4 text-white text-justify font-thin">Adipisicing in incididunt esse excepteur culpa proident aliqua sunt. Ipsum id labore in esse deserunt cillum. Occaecat consectetur irure esse consequat enim Lorem anim do fugiat Lorem pariatur.Minim minim proident Lorem do laborum aliqua officia minim amet labore. In tempor laboris ut officia cillum voluptate cillum ex est laboris est laborum mollit qui. Veniam consectetur eu irure ipsum labore nulla est labore nulla id ut. Dolor nostrud exercitation ea non et esse quis.</p>
         </div>
     </div>
@@ -106,7 +106,15 @@
         <img class="h-60 w-60 md:h-80 md:w-80" src="/assets/img/maskot-03.svg">
         <div class="flex flex-col justify-center md:ml-8">
             <h4 class="text-base font-regular text-white">DESAIN GRAFIS</h5>
-                <a href="#" class="bg-white rounded daftar text-center px-4 py-2 mt-4 md:w-1/2">DAFTAR LILIECOMP DESAIN GRAFIS</a>
+                <a href="/liliecomp/desain" class="bg-white rounded daftar text-center px-4 py-2 mt-4 md:w-1/2">DAFTAR LILIECOMP DESAIN GRAFIS</a>
+                <p class="mt-4 text-white text-justify font-thin">Adipisicing in incididunt esse excepteur culpa proident aliqua sunt. Ipsum id labore in esse deserunt cillum. Occaecat consectetur irure esse consequat enim Lorem anim do fugiat Lorem pariatur.Minim minim proident Lorem do laborum aliqua officia minim amet labore. In tempor laboris ut officia cillum voluptate cillum ex est laboris est laborum mollit qui. Veniam consectetur eu irure ipsum labore nulla est labore nulla id ut. Dolor nostrud exercitation ea non et esse quis.</p>
+        </div>
+    </div>
+    <div class="mt-12 flex flex-col items-center md:flex-row-reverse md:justify-between md:px-20">
+        <img class="h-60 w-60 md:h-80 md:w-80" src="/assets/img/maskot-03.svg">
+        <div class="flex flex-col justify-center md:ml-8">
+            <h4 class="text-base font-regular text-white">VIDEOGRAFI</h5>
+                <a href="/liliecomp/videografi" class="bg-white rounded daftar text-center px-4 py-2 mt-4 md:w-1/2">DAFTAR LILIECOMP DESAIN GRAFIS</a>
                 <p class="mt-4 text-white text-justify font-thin">Adipisicing in incididunt esse excepteur culpa proident aliqua sunt. Ipsum id labore in esse deserunt cillum. Occaecat consectetur irure esse consequat enim Lorem anim do fugiat Lorem pariatur.Minim minim proident Lorem do laborum aliqua officia minim amet labore. In tempor laboris ut officia cillum voluptate cillum ex est laboris est laborum mollit qui. Veniam consectetur eu irure ipsum labore nulla est labore nulla id ut. Dolor nostrud exercitation ea non et esse quis.</p>
         </div>
     </div>

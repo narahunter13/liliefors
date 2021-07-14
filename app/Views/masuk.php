@@ -10,8 +10,8 @@
     <title>Login | Liliefors 2021</title>
 </head>
 
-<body class="p-4 md:flex md:flex-col md:justify-center md:items-center md:h-screen">
-    <div class="w-full mt-12 md:mt-0 md:w-4/12">
+<body class="p-4 md:flex md:flex-col md:items-center md:h-screen">
+    <div class="w-full mt-12 md:mt-8 md:w-4/12">
         <div class="alert w-full bg-red-500 relative px-4 py-2 mb-4 rounded-md">
             <h5 class="text-white text-lg inline-block">Email atau Kata Sandi</h5>
             <button onclick="click_alert()" class="inline-block absolute top-50 right-0 my-auto mr-4 focus:outline-none text-white">
@@ -103,6 +103,8 @@
                 <input class="border border-black rounded-none w-full px-2 py-1" type="password" name="password" id="password">
                 <button class="w-full mt-4 rounded p-2" id="submit" type="submit">Masuk</button>
             </form>
+            <h5 class="text-base font-normal mt-4 mb-2 text-center">atau</h5>
+            <a href="/registrasi" class="w-full mt-4 rounded p-2 text-center" id="reg" type="button">Registrasi</a>
         </div>
     </div>
     <div class="w-full text-center text-white mt-4">

@@ -195,7 +195,6 @@
             <a class="text-white text-base font-normal rounded-lg py-4 w-10/12 mx-4 my-2" href="#kompetisi">KOMPETISI</a>
             <a class="text-white text-base font-normal rounded-lg py-4 w-10/12 mx-4 my-2" href="#klinik">KLINIK</a>
             <a class="text-white text-base font-normal rounded-lg py-4 w-10/12 mx-4 my-2" href="#galeri">GALERI</a>
-            <a class="text-white text-base font-normal rounded-lg py-4 w-10/12 mx-4 my-2" href="/registrasi">REGISTRASI</a>
             <a class="text-white text-base font-normal rounded-lg py-4 w-10/12 mx-4 my-2" href="/masuk">MASUK</a>
         </div>
     </div>
