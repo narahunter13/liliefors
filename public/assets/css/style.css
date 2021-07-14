@@ -138,13 +138,19 @@ footer, section {
     font-size: 4rem;
 }
 
-#burger-background {
+#burger-background, #burger-background-landing {
     display: none;
     opacity: 0;
     transition: all 0.3s;
 }
 
-#burger-navigation {
+#burger-navigation, #burger-navigation-landing {
     transform: translateX(-100%);
     transition: all 0.4s;
+}
+
+.daftar {
+    color: #045753;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
 }

@@ -90,6 +90,7 @@
         <img class="h-60 w-60 md:h-80 md:w-80" src="/assets/img/maskot-01.svg">
         <div class="flex flex-col justify-center md:ml-8">
             <h4 class="text-base font-regular text-white">PENULISAN</h5>
+                <a href="/liliecomp/penulisan" class="bg-white rounded daftar text-center px-4 py-2 mt-4 md:w-1/2">DAFTAR LILIECOMP PENULISAN</a>
                 <p class="mt-4 text-white text-justify font-thin">Adipisicing in incididunt esse excepteur culpa proident aliqua sunt. Ipsum id labore in esse deserunt cillum. Occaecat consectetur irure esse consequat enim Lorem anim do fugiat Lorem pariatur.Minim minim proident Lorem do laborum aliqua officia minim amet labore. In tempor laboris ut officia cillum voluptate cillum ex est laboris est laborum mollit qui. Veniam consectetur eu irure ipsum labore nulla est labore nulla id ut. Dolor nostrud exercitation ea non et esse quis.</p>
         </div>
     </div>
@@ -97,6 +98,7 @@
         <img class="h-60 w-60 md:h-80 md:w-80" src="/assets/img/maskot-02.svg">
         <div class="flex flex-col justify-center md:mr-8">
             <h4 class="text-base font-regular text-white">FOTOGRAFI</h5>
+                <a href="#" class="bg-white rounded daftar text-center px-4 py-2 mt-4 md:w-1/2">DAFTAR LILIECOMP FOTOGRAFI</a>
                 <p class="mt-4 text-white text-justify font-thin">Adipisicing in incididunt esse excepteur culpa proident aliqua sunt. Ipsum id labore in esse deserunt cillum. Occaecat consectetur irure esse consequat enim Lorem anim do fugiat Lorem pariatur.Minim minim proident Lorem do laborum aliqua officia minim amet labore. In tempor laboris ut officia cillum voluptate cillum ex est laboris est laborum mollit qui. Veniam consectetur eu irure ipsum labore nulla est labore nulla id ut. Dolor nostrud exercitation ea non et esse quis.</p>
         </div>
     </div>
@@ -104,34 +106,56 @@
         <img class="h-60 w-60 md:h-80 md:w-80" src="/assets/img/maskot-03.svg">
         <div class="flex flex-col justify-center md:ml-8">
             <h4 class="text-base font-regular text-white">DESAIN GRAFIS</h5>
+                <a href="#" class="bg-white rounded daftar text-center px-4 py-2 mt-4 md:w-1/2">DAFTAR LILIECOMP DESAIN GRAFIS</a>
                 <p class="mt-4 text-white text-justify font-thin">Adipisicing in incididunt esse excepteur culpa proident aliqua sunt. Ipsum id labore in esse deserunt cillum. Occaecat consectetur irure esse consequat enim Lorem anim do fugiat Lorem pariatur.Minim minim proident Lorem do laborum aliqua officia minim amet labore. In tempor laboris ut officia cillum voluptate cillum ex est laboris est laborum mollit qui. Veniam consectetur eu irure ipsum labore nulla est labore nulla id ut. Dolor nostrud exercitation ea non et esse quis.</p>
         </div>
     </div>
 </section>
 
 <section class="px-4 py-10" id="klinik">
-    <h5 class="text-xl text-center font-black text-white mb-12 mx-auto">KLINIK</h5>
-    <div class="flex flex-col divide-y divide-white md:divide-none md:flex-row md:justify-around text-white">
-        <div class="flex flex-col py-4 md:p-0">
-            <h3 class="text-lg text-center font-bold">PENULISAN</h3>
-            <embed class="h-40 w-auto my-4" src="/assets/img/pembicara-1.svg">
-            <h4 class="text-base font-normal text-center">ANONIM</h4>
+    <h5 class="text-xl text-center font-black text-white mx-auto">KLINIK</h5>
+    <div class="flex flex-col divide-y divide-white text-white md:divide-none">
+        <div class="my-8 flex flex-col items-center md:flex-row md:justify-between md:px-20">
+            <div class="flex flex-col py-4 md:p-0 md:mr-8">
+                <embed class="h-40 w-auto my-4" src="/assets/img/pembicara-1.svg">
+                <h4 class="text-base font-normal text-center">ANONIM</h4>
+            </div>
+            <div>
+                <h3 class="text-lg text-center font-bold mt-6 md:mx-0 md:text-left md:mb-4">PENULISAN</h3>
+                <p class="mt-4 text-white text-justify font-thin">Adipisicing in incididunt esse excepteur culpa proident aliqua sunt. Ipsum id labore in esse deserunt cillum. Occaecat consectetur irure esse consequat enim Lorem anim do fugiat Lorem pariatur.Minim minim proident Lorem do laborum aliqua officia minim amet labore. In tempor laboris ut officia cillum voluptate cillum ex est laboris est laborum mollit qui. Veniam consectetur eu irure ipsum labore nulla est labore nulla id ut. Dolor nostrud exercitation ea non et esse quis.</p>
+            </div>
         </div>
-        <div class="flex flex-col py-4 md:p-0">
-            <h3 class="text-lg text-center font-bold">FOTOGRAFI</h3>
-            <embed class="h-40 w-auto my-4" src="/assets/img/pembicara-1.svg">
-            <h4 class="text-base font-normal text-center">ANONIM</h4>
+        <div class="my-8 flex flex-col items-center md:flex-row md:justify-between md:px-20 md:flex-row-reverse">
+            <div class="flex flex-col py-4 md:p-0 md:ml-8">
+                <embed class="h-40 w-auto my-4" src="/assets/img/pembicara-1.svg">
+                <h4 class="text-base font-normal text-center">ANONIM</h4>
+            </div>
+            <div>
+                <h3 class="text-lg text-center font-bold mt-6 md:mx-0 md:text-left md:mb-4">FOTOGRAFI</h3>
+                <p class="mt-4 text-white text-justify font-thin">Adipisicing in incididunt esse excepteur culpa proident aliqua sunt. Ipsum id labore in esse deserunt cillum. Occaecat consectetur irure esse consequat enim Lorem anim do fugiat Lorem pariatur.Minim minim proident Lorem do laborum aliqua officia minim amet labore. In tempor laboris ut officia cillum voluptate cillum ex est laboris est laborum mollit qui. Veniam consectetur eu irure ipsum labore nulla est labore nulla id ut. Dolor nostrud exercitation ea non et esse quis.</p>
+            </div>
         </div>
-        <div class="flex flex-col py-4 md:p-0">
-            <h3 class="text-lg text-center font-bold">DESAIN GRAFIS</h3>
-            <embed class="h-40 w-auto my-4" src="/assets/img/pembicara-1.svg">
-            <h4 class="text-base font-normal text-center">ANONIM</h4>
+        <div class="my-8 flex flex-col items-center md:flex-row md:justify-between md:px-20">
+            <div class="flex flex-col py-4 md:p-0 md:mr-8">
+                <embed class="h-40 w-auto my-4" src="/assets/img/pembicara-1.svg">
+                <h4 class="text-base font-normal text-center">ANONIM</h4>
+            </div>
+            <div>
+                <h3 class="text-lg text-center font-bold mt-6 md:mx-0 md:text-left md:mb-4">DESAIN GRAFIS</h3>
+                <p class="mt-4 text-white text-justify font-thin">Adipisicing in incididunt esse excepteur culpa proident aliqua sunt. Ipsum id labore in esse deserunt cillum. Occaecat consectetur irure esse consequat enim Lorem anim do fugiat Lorem pariatur.Minim minim proident Lorem do laborum aliqua officia minim amet labore. In tempor laboris ut officia cillum voluptate cillum ex est laboris est laborum mollit qui. Veniam consectetur eu irure ipsum labore nulla est labore nulla id ut. Dolor nostrud exercitation ea non et esse quis.</p>
+            </div>
         </div>
-        <div class="flex flex-col py-4 md:p-0">
-            <h3 class="text-lg text-center font-bold">VIDEOGRAFI</h3>
-            <embed class="h-40 w-auto my-4" src="/assets/img/pembicara-1.svg">
-            <h4 class="text-base font-normal text-center">ANONIM</h4>
+        <div class="my-8 flex flex-col items-center md:flex-row md:justify-between md:px-20 md:flex-row-reverse">
+            <div class="flex flex-col py-4 md:p-0 md:ml-8">
+                <embed class="h-40 w-auto my-4" src="/assets/img/pembicara-1.svg">
+                <h4 class="text-base font-normal text-center">ANONIM</h4>
+            </div>
+            <div>
+                <h3 class="text-lg text-center font-bold mt-6 md:mx-0 md:text-left md:mb-4">PERSONAL BRANDING</h3>
+                <p class="mt-4 text-white text-justify font-thin">Adipisicing in incididunt esse excepteur culpa proident aliqua sunt. Ipsum id labore in esse deserunt cillum. Occaecat consectetur irure esse consequat enim Lorem anim do fugiat Lorem pariatur.Minim minim proident Lorem do laborum aliqua officia minim amet labore. In tempor laboris ut officia cillum voluptate cillum ex est laboris est laborum mollit qui. Veniam consectetur eu irure ipsum labore nulla est labore nulla id ut. Dolor nostrud exercitation ea non et esse quis.</p>
+            </div>
         </div>
+        <a href="#" class="bg-white rounded daftar text-center px-4 py-2 mt-4 md:w-1/3 md:mx-auto">DAFTAR KLINIK</a>
     </div>
 </section>
 
@@ -142,4 +166,20 @@
         <iframe class="absolute inset-0 w-full h-full" src="https://www.youtube.com/embed/ya2b97iXlHk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 </section>
+
+<script>
+    var burger_landing = document.getElementById('burger-landing');
+    var burger_background_landing = document.getElementById('burger-background-landing');
+    var burger_nav_landing = document.getElementById('burger-navigation-landing');
+    burger_landing.addEventListener('click', () => {
+        burger_nav_landing.style.transform = 'translateX(0)';
+        burger_background_landing.style.opacity = 0.2;
+        burger_background_landing.style.display = 'block';
+    });
+    burger_background_landing.addEventListener('click', () => {
+        burger_nav_landing.style.transform = 'translateX(-100%)';
+        burger_background_landing.style.opacity = 0;
+        burger_background_landing.style.display = 'none';
+    });
+</script>
 <?= $this->endSection() ?>

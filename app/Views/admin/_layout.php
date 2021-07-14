@@ -20,7 +20,7 @@
         </div>
         <div class="flex flex-row justify-center">
             <h5 class="title text-lg text-white text-center flex flex-col justify-center">L I L I E F O R S</h5>
-            <div class="border border-white mx-2 h-2/3 my-auto"></div>
+            <div class="border border-white mx-2 h-2/3 my-auto bg-white"></div>
             <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="64px" height="64px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 9144 9144" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
                 <defs>
                     <style type="text/css">
@@ -133,7 +133,7 @@
             <nav id="navbar" class="hidden lg:flex w-full flex-row justify-end py-2 px-6 z-50">
                 <div class="flex flex-row justify-center">
                     <h5 class="title text-lg text-white text-center flex flex-col justify-center">L I L I E F O R S</h5>
-                    <div class="border border-white mx-2 h-2/3 my-auto"></div>
+                    <div class="border border-white mx-2 h-2/3 my-auto bg-white"></div>
                     <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="64px" height="64px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 9144 9144" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
                         <defs>
                             <style type="text/css">

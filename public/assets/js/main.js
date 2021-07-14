@@ -44,10 +44,10 @@ function click_alert() {
 /*
   Burger Navbar
 */
-var burger = document.getElementById('burger-dashboard');
+var burger_dashboard = document.getElementById('burger-dashboard');
 var burger_background = document.getElementById('burger-background');
 var burger_nav = document.getElementById('burger-navigation');
-burger.addEventListener('click', () => {
+burger_dashboard.addEventListener('click', () => {
   burger_nav.style.transform = 'translateX(0)';
   burger_background.style.opacity = 0.2;
   burger_background.style.display = 'block';
