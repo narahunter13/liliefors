@@ -130,16 +130,11 @@
                 <h5 class="text-base text-center font-normal text-white"> HALO, RIFKY!</h5>
             </div>
             <div class="flex flex-col items-center">
-                <a class="text-white text-base font-normal rounded rounded-lg py-4 w-10/12 mx-4 my-2<?= $title == 'Pengumuman' ? ' active' : '';?>" href="/dashboard/pengumuman">PENGUMUMAN</a>
-                <a class="text-white text-base font-normal rounded rounded-lg py-4 w-10/12 mx-4 my-2<?= $title == 'Linimasa' ? ' active' : '';?>" href="/dashboard/linimasa">LINIMASA</a>
-                <a class="text-white text-base font-normal rounded rounded-lg py-4 w-10/12 mx-4 my-2<?= $title == 'Sunting Profil' ? ' active' : '';?>" href="/dashboard/sunting">SUNTING PROFIL</a>
-                <a class="text-white text-base font-normal rounded rounded-lg py-4 w-10/12 mx-4 my-2" href="/#klinik">DAFTAR LILIEFORS</a>
-                <a class="text-white text-base font-normal rounded rounded-lg py-4 w-10/12 mx-4 my-2" href="/#kompetisi">DAFTAR LILIECOMP</a>
                 <a class="text-white text-base font-normal rounded rounded-lg py-4 w-10/12 mx-4 my-2<?= $title == 'Pengumuman' ? ' active' : '';?>" href="/user/pengumuman">PENGUMUMAN</a>
                 <a class="text-white text-base font-normal rounded rounded-lg py-4 w-10/12 mx-4 my-2<?= $title == 'Linimasa' ? ' active' : '';?>" href="/user/linimasa">LINIMASA</a>
                 <a class="text-white text-base font-normal rounded rounded-lg py-4 w-10/12 mx-4 my-2<?= $title == 'Sunting Profil' ? ' active' : '';?>" href="/user/sunting">SUNTING PROFIL</a>
-                <a class="text-white text-base font-normal rounded rounded-lg py-4 w-10/12 mx-4 my-2" href="#">DAFTAR LILIEFORS</a>
-                <a class="text-white text-base font-normal rounded rounded-lg py-4 w-10/12 mx-4 my-2" href="#">DAFTAR LILIECOMP</a>
+                <a class="text-white text-base font-normal rounded rounded-lg py-4 w-10/12 mx-4 my-2" href="/#klinik">DAFTAR LILIEFORS</a>
+                <a class="text-white text-base font-normal rounded rounded-lg py-4 w-10/12 mx-4 my-2" href="/#kompetisi">DAFTAR LILIECOMP</a>
                 <a class="text-white text-base font-normal rounded rounded-lg py-4 w-10/12 mx-4 my-2" href="#">KELUAR</a>
             </div>
         </aside>
