@@ -93,16 +93,23 @@
             <div class="border border-white mx-2 h-2/3 my-auto"></div>
             <h5 class="title text-lg text-white text-center flex flex-col justify-center">L I L I E F O R S</h5>
         </div>
-        <div class="link text-white flex justify-center items-center px-4">
-            <a class="mx-4 sub-link" href="#kompetisi">KOMPETISI</a>
-            <a class="mx-4 sub-link" href="#klinik">KLINIK</a>
-            <a class="mx-4 sub-link" href="#galeri">GALERI</a>
-            <a class="mx-4 sub-link" href="/registrasi">REGISTRASI</a>
-            <a class="mx-4 masuk-button rounded-md py-2 px-4 font-medium" href="/masuk">MASUK</a>
+        <div class="link md:text-white md:flex md:justify-center md:items-center md:px-4">
+            <a class="md:mx-4 sub-link" href="#kompetisi">KOMPETISI</a>
+            <a class="md:mx-4 sub-link" href="#klinik">KLINIK</a>
+            <a class="md:mx-4 sub-link" href="#galeri">GALERI</a>
+            <a class="md:mx-4 sub-link" href="/registrasi">REGISTRASI</a>
+            <a class="md:mx-4 masuk-button md:rounded-md md:py-2 md:px-4 md:font-medium" href="/masuk">MASUK</a>
         </div>
     </nav>
-    <nav id="navbar_mobile" class="flex w-full flex-row justify-between p-2 sticky top-0 lg:hidden z-50">
+    <nav id="navbar_mobile" class="flex w-full flex-row justify-between p-2 sticky top-0 lg:hidden z-40">
+        <div id="burger-landing" class="flex flex-col justify-center w-8 ml-4">
+            <div class="bg-white rounded w-full h-1 my-1"></div>
+            <div class="bg-white rounded w-full h-1 my-1"></div>
+            <div class="bg-white rounded w-full h-1 my-1"></div>
+        </div>
         <div class="flex flex-row justify-center">
+            <h5 class="title text-lg text-white text-center flex flex-col justify-center">L I L I E F O R S</h5>
+            <div class="border border-white mx-2 h-2/3 my-auto"></div>
             <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="64px" height="64px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 9144 9144" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
                 <defs>
                     <style type="text/css">
@@ -180,15 +187,19 @@
                     </g>
                 </g>
             </svg>
-            <div class="border border-white mx-2 h-2/3 my-auto"></div>
-            <h5 class="title text-lg text-white text-center flex flex-col justify-center">L I L I E F O R S</h5>
-        </div>
-        <div class="flex flex-col justify-center w-12 mr-3">
-            <div class="bg-white rounded w-full h-1 my-1"></div>
-            <div class="bg-white rounded w-full h-1 my-1"></div>
-            <div class="bg-white rounded w-full h-1 my-1"></div>
         </div>
     </nav>
+    <div id="burger-background-landing" class="bg-black h-screen w-screen z-40 sticky top-0 left-0 lg:hidden"></div>
+
+    <div id="burger-navigation-landing" class="h-screen nav-mobile w-8/12 sticky top-0 z-50 text-center lg:hidden">
+        <div class="flex flex-col items-center">
+            <a class="text-white text-base font-normal rounded-lg py-4 w-10/12 mx-4 my-2" href="#kompetisi">KOMPETISI</a>
+            <a class="text-white text-base font-normal rounded-lg py-4 w-10/12 mx-4 my-2" href="#klinik">KLINIK</a>
+            <a class="text-white text-base font-normal rounded-lg py-4 w-10/12 mx-4 my-2" href="#galeri">GALERI</a>
+            <a class="text-white text-base font-normal rounded-lg py-4 w-10/12 mx-4 my-2" href="/registrasi">REGISTRASI</a>
+            <a class="text-white text-base font-normal rounded-lg py-4 w-10/12 mx-4 my-2" href="/masuk">MASUK</a>
+        </div>
+    </div>
 
     <?= $this->renderSection('content') ?>
 
