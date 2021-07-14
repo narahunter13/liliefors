@@ -139,22 +139,34 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item<?= $active == "Pengumuman" ? ' active' : "" ?>">
-                <a class="nav-link" href="/admin/pengumuman">
+                <a class="nav-link" href="/user/pengumuman">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Pengumuman</span></a>
             </li>
 
             <!-- Nav Item - Utilities Collapse Menu -->
-            <li class="nav-item<?= $active == "Referal" ? ' active' : "" ?>">
-                <a class="nav-link" href="/admin/referal">
+            <li class="nav-item<?= $active == "Linimasa" ? ' active' : "" ?>">
+                <a class="nav-link" href="/user/linimasa">
                     <i class="fas fa-fw fa-chart-area"></i>
-                    <span>Kode Referal</span></a>
+                    <span>Linimasa</span></a>
             </li>
 
-            <li class="nav-item<?= $active == "Peserta" ? ' active' : "" ?>">
-                <a class="nav-link" href="/admin/peserta">
+            <li class="nav-item<?= $active == "Sunting" ? ' active' : "" ?>">
+                <a class="nav-link" href="/user/sunting">
                     <i class="fas fa-fw fa-chart-area"></i>
-                    <span>Konfirmasi Peserta</span></a>
+                    <span>Sunting Profil</span></a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="/#kompetisi">
+                    <i class="fas fa-fw fa-chart-area"></i>
+                    <span>Daftar Liliecomp</span></a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="/#klinik">
+                    <i class="fas fa-fw fa-chart-area"></i>
+                    <span>Daftar Liliefors</span></a>
             </li>
 
             <!-- Sidebar Toggler (Sidebar) -->
@@ -187,7 +199,7 @@
                         <!-- Nav Item - User Information -->
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Administrator</span>
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Nama</span>
                                 <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
                             </a>
                             <!-- Dropdown - User Information -->

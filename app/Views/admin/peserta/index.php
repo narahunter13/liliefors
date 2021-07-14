@@ -16,6 +16,7 @@
                                 <th>Email</th>
                                 <th>Total Pembayaran</th>
                                 <th>Status Pembayaran</th>
+                                <th>Ubah Status</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -24,6 +25,7 @@
                                 <td class="text-center">System Architect</td>
                                 <td class="text-center">Edinburgh</td>
                                 <td class="text-center">Edinburgh</td>
+                                <td class="text-center">Ubah</td>
                             </tr>
                         </tbody>
                     </table>

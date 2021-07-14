@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function () {
     $('#pengumuman-table').DataTable();
     $('#peserta-table').DataTable();
     $('#summernote').summernote({
@@ -9,6 +9,6 @@ $(document).ready(function() {
             ['para', ['ul', 'ol', 'paragraph']],
             ['table', ['table']],
             ['view', ['fullscreen', 'codeview', 'help']]
-          ]
+        ]
     });
 })
