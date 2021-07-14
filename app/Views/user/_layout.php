@@ -20,11 +20,7 @@
         </div>
         <div class="flex flex-row justify-center">
             <h5 class="title text-lg text-white text-center flex flex-col justify-center">L I L I E F O R S</h5>
-<<<<<<< HEAD
             <div class="border border-white mx-2 h-2/3 my-auto bg-white"></div>
-=======
-            <div class="border border-white mx-2 h-2/3 my-auto"></div>
->>>>>>> origin/Rifky
             <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="64px" height="64px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 9144 9144" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
                 <defs>
                     <style type="text/css">
@@ -113,25 +109,16 @@
             <h5 class="text-base text-center font-normal text-white"> HALO, RIFKY!</h5>
         </div>
         <div class="flex flex-col items-center">
-<<<<<<< HEAD
-<<<<<<< HEAD:app/Views/dashboard/_layout.php
             <a class="text-white text-base font-normal rounded-lg py-4 w-10/12 mx-4 my-2<?= $title == 'Pengumuman' ? ' active' : '';?>" href="/dashboard/pengumuman">PENGUMUMAN</a>
             <a class="text-white text-base font-normal rounded-lg py-4 w-10/12 mx-4 my-2<?= $title == 'Linimasa' ? ' active' : '';?>" href="/dashboard/linimasa">LINIMASA</a>
             <a class="text-white text-base font-normal rounded-lg py-4 w-10/12 mx-4 my-2<?= $title == 'Sunting Profil' ? ' active' : '';?>" href="/dashboard/sunting">SUNTING PROFIL</a>
             <a class="text-white text-base font-normal rounded-lg py-4 w-10/12 mx-4 my-2" href="/#klinik">DAFTAR LILIEFORS</a>
             <a class="text-white text-base font-normal rounded-lg py-4 w-10/12 mx-4 my-2" href="/#kompetisi">DAFTAR LILIECOMP</a>
-=======
-=======
->>>>>>> origin/Rifky
             <a class="text-white text-base font-normal rounded-lg py-4 w-10/12 mx-4 my-2<?= $title == 'Pengumuman' ? ' active' : '';?>" href="/user/pengumuman">PENGUMUMAN</a>
             <a class="text-white text-base font-normal rounded-lg py-4 w-10/12 mx-4 my-2<?= $title == 'Linimasa' ? ' active' : '';?>" href="/user/linimasa">LINIMASA</a>
             <a class="text-white text-base font-normal rounded-lg py-4 w-10/12 mx-4 my-2<?= $title == 'Sunting Profil' ? ' active' : '';?>" href="/user/sunting">SUNTING PROFIL</a>
             <a class="text-white text-base font-normal rounded-lg py-4 w-10/12 mx-4 my-2" href="#">DAFTAR LILIEFORS</a>
             <a class="text-white text-base font-normal rounded-lg py-4 w-10/12 mx-4 my-2" href="#">DAFTAR LILIECOMP</a>
-<<<<<<< HEAD
->>>>>>> 0598f372cc85f18759bf0d3b0acc61aad192f18f:app/Views/user/_layout.php
-=======
->>>>>>> origin/Rifky
             <a class="text-white text-base font-normal rounded-lg py-4 w-10/12 mx-4 my-2" href="#">KELUAR</a>
         </div>
     </div>
@@ -143,25 +130,16 @@
                 <h5 class="text-base text-center font-normal text-white"> HALO, RIFKY!</h5>
             </div>
             <div class="flex flex-col items-center">
-<<<<<<< HEAD
-<<<<<<< HEAD:app/Views/dashboard/_layout.php
                 <a class="text-white text-base font-normal rounded rounded-lg py-4 w-10/12 mx-4 my-2<?= $title == 'Pengumuman' ? ' active' : '';?>" href="/dashboard/pengumuman">PENGUMUMAN</a>
                 <a class="text-white text-base font-normal rounded rounded-lg py-4 w-10/12 mx-4 my-2<?= $title == 'Linimasa' ? ' active' : '';?>" href="/dashboard/linimasa">LINIMASA</a>
                 <a class="text-white text-base font-normal rounded rounded-lg py-4 w-10/12 mx-4 my-2<?= $title == 'Sunting Profil' ? ' active' : '';?>" href="/dashboard/sunting">SUNTING PROFIL</a>
                 <a class="text-white text-base font-normal rounded rounded-lg py-4 w-10/12 mx-4 my-2" href="/#klinik">DAFTAR LILIEFORS</a>
                 <a class="text-white text-base font-normal rounded rounded-lg py-4 w-10/12 mx-4 my-2" href="/#kompetisi">DAFTAR LILIECOMP</a>
-=======
-=======
->>>>>>> origin/Rifky
                 <a class="text-white text-base font-normal rounded rounded-lg py-4 w-10/12 mx-4 my-2<?= $title == 'Pengumuman' ? ' active' : '';?>" href="/user/pengumuman">PENGUMUMAN</a>
                 <a class="text-white text-base font-normal rounded rounded-lg py-4 w-10/12 mx-4 my-2<?= $title == 'Linimasa' ? ' active' : '';?>" href="/user/linimasa">LINIMASA</a>
                 <a class="text-white text-base font-normal rounded rounded-lg py-4 w-10/12 mx-4 my-2<?= $title == 'Sunting Profil' ? ' active' : '';?>" href="/user/sunting">SUNTING PROFIL</a>
                 <a class="text-white text-base font-normal rounded rounded-lg py-4 w-10/12 mx-4 my-2" href="#">DAFTAR LILIEFORS</a>
                 <a class="text-white text-base font-normal rounded rounded-lg py-4 w-10/12 mx-4 my-2" href="#">DAFTAR LILIECOMP</a>
-<<<<<<< HEAD
->>>>>>> 0598f372cc85f18759bf0d3b0acc61aad192f18f:app/Views/user/_layout.php
-=======
->>>>>>> origin/Rifky
                 <a class="text-white text-base font-normal rounded rounded-lg py-4 w-10/12 mx-4 my-2" href="#">KELUAR</a>
             </div>
         </aside>
@@ -169,11 +147,7 @@
             <nav id="navbar" class="hidden lg:flex w-full flex-row justify-end py-2 px-6 z-50">
                 <div class="flex flex-row justify-center">
                     <h5 class="title text-lg text-white text-center flex flex-col justify-center">L I L I E F O R S</h5>
-<<<<<<< HEAD
                     <div class="border border-white mx-2 h-2/3 my-auto bg-white"></div>
-=======
-                    <div class="border border-white mx-2 h-2/3 my-auto"></div>
->>>>>>> origin/Rifky
                     <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="64px" height="64px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 9144 9144" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
                         <defs>
                             <style type="text/css">
