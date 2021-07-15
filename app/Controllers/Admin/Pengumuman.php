@@ -15,6 +15,7 @@ class Pengumuman extends BaseController
 
     public function __construct()
     {
+        date_default_timezone_set("Asia/Bangkok");
         $this->validation = \Config\Services::validation();
         $this->model = new Model_pengumuman();
         $this->session = \Config\Services::session();
@@ -80,7 +81,8 @@ class Pengumuman extends BaseController
 
         $test = [
             'judul' => $judul,
-            'konten' => $konten
+            'konten' => $konten,
+            'last_edited' => date("Y-m-d H:i:s", time())
         ];
 
         $this->validation->setRules([
