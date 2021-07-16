@@ -1,3 +1,7 @@
+<?php
+$session = \Config\Services::session();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -271,23 +275,6 @@
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 
     <script src="/assets/js/admin-dashboard.js"></script>
-
-    <script>
-        function makeid(length) {
-            var result = '';
-            var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-            var charactersLength = characters.length;
-            for (var i = 0; i < length; i++) {
-                result += characters.charAt(Math.floor(Math.random() *
-                    charactersLength));
-            }
-            return result;
-        }
-
-        $('#modal-button').on('click', function() {
-            $('#kode').val(makeid(5));
-        });
-    </script>
 </body>
 
 </html>

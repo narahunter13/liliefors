@@ -1,3 +1,8 @@
+<?php
+$session = \Config\Services::session();
+$success = $session->getFlashdata('success');
+$failed = $session->getFlashdata('failed');
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,12 +17,12 @@
 
 <body class="p-4 md:flex md:flex-col md:items-center md:h-screen">
     <div class="w-full mt-12 md:mt-8 md:w-4/12">
-        <div class="alert w-full bg-red-500 relative px-4 py-2 mb-4 rounded-md">
-            <h5 class="text-white text-lg inline-block">Email atau Kata Sandi</h5>
-            <button onclick="click_alert()" class="inline-block absolute top-50 right-0 my-auto mr-4 focus:outline-none text-white">
+        <?= isset($success) ? "<div class='alert w-full bg-blue-500 relative px-4 py-2 mb-4 rounded-md'>
+            <h5 class='text-white text-lg inline-block'>" . $success . "</h5>
+            <button onclick='click_alert()' class='inline-block absolute top-50 right-0 my-auto mr-4 focus:outline-none text-white'>
                 <span>&times;</span>
             </button>
-        </div>
+        </div>" : "" ?>
         <div class="rounded rounded-lg bg-white shadow-lg p-4 w-full">
             <svg class="mx-auto" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100px" height="100px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 9144 9144" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
                 <defs>
@@ -96,7 +101,8 @@
                     </g>
                 </g>
             </svg>
-            <form action="/masuk" method="post" autocomplete="off">
+            <form action="/masuk/auth" method="post" autocomplete="off">
+                <?= isset($failed) ? "<small class='text-red-500'>" . $failed . "</small>" : "" ?>
                 <h5 class="text-base font-normal mt-4 mb-2">Email</h5>
                 <input class="border border-black rounded-none w-full px-2 py-1" autocomplete="false" type="email" name="email" id="email">
                 <h5 class="text-base font-normal mt-4 mb-2">Kata Sandi</h5>

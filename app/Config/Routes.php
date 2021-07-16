@@ -34,6 +34,23 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 
+// Pengumuman
+$routes->get('admin/pengumuman', 'Admin\Pengumuman::index', ['filter' => 'cek_admin']);
+$routes->get('admin/pengumuman/new', 'Admin\Pengumuman::new', ['filter' => 'cek_admin']);
+$routes->post('admin/pengumuman/post', 'Admin\Pengumuman::post', ['filter' => 'cek_admin']);
+$routes->post('admin/pengumuman/update', 'Admin\Pengumuman::update', ['filter' => 'cek_admin']);
+$routes->post('admin/pengumuman/sunting/(:any)', 'Admin\Pengumuman::sunting/$1', ['filter' => 'cek_admin']);
+$routes->post('admin/pengumuman/del/(:any)', 'Admin\Pengumuman::del/$1', ['filter' => 'cek_admin']);
+
+// Peserta
+$routes->get('admin/peserta', 'Admin\Peserta::index', ['filter' => 'cek_admin']);
+$routes->post('admin/peserta/ubah', 'Admin\Peserta::ubah', ['filter' => 'cek_admin']);
+
+// Referal
+$routes->get('admin/referal', 'Admin\Referal::index', ['filter' => 'cek_admin']);
+$routes->post('admin/referal/store', 'Admin\Referal::store', ['filter' => 'cek_admin']);
+
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing

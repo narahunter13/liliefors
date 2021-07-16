@@ -1,5 +1,10 @@
 <?= $this->extend('admin/_layout'); ?>
 
+<?php
+$session = \Config\Services::session();
+$success = $session->getFlashdata('success');
+?>
+
 <?= $this->section('content'); ?>
 <div class="modal fade" id="kode-referal" tabindex="-1" role="dialog" aria-labelledby="kode-label" aria-hidden="true">
     <div class="modal-dialog" role="document">
@@ -10,32 +15,38 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <div class="modal-body">
-                <form action="#" method="post">
+            <form action="/admin/referal/store" method="post">
+                <div class="modal-body">
                     <label for="email-pemilik">Email Pemilik</label>
                     <br>
                     <select name="email-pemilik" id="email-pemilik" class="email-pemilik custom-select">
-                        <option value="1">A@A</option>
-                        <option value="2">B@B</option>
-                        <option value="3">C@C</option>
+                        <?php foreach ($emails as $email) { ?>
+                            <option value="<?= $email['id'] ?>"><?= $email['email'] ?></option>
+                        <?php } ?>
                     </select>
                     <div class="form-group">
                         <label for="kode">Kode</label>
-                        <input type="text" class="form-control" id="kode">
+                        <input type="text" name="kode" class="form-control" id="kode" readonly>
                     </div>
-                </form>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-dismiss="modal">Batal</button>
-                <button type="button" class="btn btn-primary">Simpan</button>
-            </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Batal</button>
+                    <button type="submit" class="btn btn-primary">Simpan</button>
+                </div>
+            </form>
         </div>
     </div>
 </div>
 
 <div class="row">
-    <div class="container-fluid">
-        <button id="modal-button" data-toggle="modal" data-target="#kode-referal" class="btn btn-primary col-12 col-md-2 mb-4">Buat Kode</button>
+    <div class="container-fluid mb-4">
+        <button id="modal-button" data-toggle="modal" data-target="#kode-referal" class="btn btn-primary col-12 col-md-2">Buat Kode</button>
+        <?= isset($success) ? "<div class='alert alert-success alert-dismissible fade show mt-4' role='alert'>
+            " . $success . "
+            <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+                <span aria-hidden='true'>&times;</span>
+            </button>
+        </div>" : ''; ?>
     </div>
     <div class="container-fluid">
         <div class="card shadow mb-4">
@@ -53,11 +64,13 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <td>Tiger Nixon</td>
-                                <td class="text-center">System Architect</td>
-                                <td class="text-center">Edinburgh</td>
-                            </tr>
+                            <?php foreach ($kode_referal as $kode) { ?>
+                                <tr>
+                                    <td><?= $kode['kode_referal'] ?></td>
+                                    <td><?= $kode['email_pemilik'] ?></td>
+                                    <td><?= $kode['email_penerima'] ? $kode['email_penerima'] : 'Belum Ada Pengguna' ?></td>
+                                </tr>
+                            <?php } ?>
                         </tbody>
                     </table>
                 </div>
@@ -65,4 +78,21 @@
         </div>
     </div>
 </div>
+
+<script>
+    function makeid(length) {
+        var result = '';
+        var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+        var charactersLength = characters.length;
+        for (var i = 0; i < length; i++) {
+            result += characters.charAt(Math.floor(Math.random() *
+                charactersLength));
+        }
+        return result;
+    }
+
+    $('#modal-button').on('click', function() {
+        $('#kode').attr('value', makeid(5));
+    });
+</script>
 <?= $this->endSection(); ?>

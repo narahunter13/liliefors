@@ -2,6 +2,8 @@
 
 namespace Config;
 
+use App\Filters\Auth_Admin;
+use App\Filters\Auth_User;
 use CodeIgniter\Config\BaseConfig;
 use CodeIgniter\Filters\CSRF;
 use CodeIgniter\Filters\DebugToolbar;
@@ -19,6 +21,8 @@ class Filters extends BaseConfig
 		'csrf'     => CSRF::class,
 		'toolbar'  => DebugToolbar::class,
 		'honeypot' => Honeypot::class,
+		'cek_admin' => Auth_Admin::class,
+		'cek_user' => Auth_User::class
 	];
 
 	/**

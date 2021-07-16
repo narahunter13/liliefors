@@ -1,3 +1,6 @@
+<?php
+$session = \Config\Services::session();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -157,17 +160,51 @@
                     <span>Sunting Profil</span></a>
             </li>
 
+            <?php if ($session->get('penulisan') == 1) { ?>
+                <li class="nav-item<?= $active == 'penulisan' ? ' penulisan' : ''; ?>">
+                    <a class="nav-link" href="/#klinik">
+                        <i class="fas fa-fw fa-chart-area"></i>
+                        <span>Unggah Karya Penulisan</span></a>
+                </li>
+            <?php } ?>
+
+            <?php if ($session->get('fotografi') == 1) { ?>
+                <li class="nav-item<?= $active == 'fotografi' ? ' fotografi' : ''; ?>">
+                    <a class="nav-link" href="/#klinik">
+                        <i class="fas fa-fw fa-chart-area"></i>
+                        <span>Unggah Karya Fotografi</span></a>
+                </li>
+            <?php } ?>
+
+            <?php if ($session->get('desain') == 1) { ?>
+                <li class="nav-item<?= $active == 'desain' ? ' desain' : ''; ?>">
+                    <a class="nav-link" href="/#klinik">
+                        <i class="fas fa-fw fa-chart-area"></i>
+                        <span>Unggah Karya Desain Grafis</span></a>
+                </li>
+            <?php } ?>
+
+            <?php if ($session->get('videografi') == 1) { ?>
+                <li class="nav-item<?= $active == 'videografi' ? ' videografi' : ''; ?>">
+                    <a class="nav-link" href="/#klinik">
+                        <i class="fas fa-fw fa-chart-area"></i>
+                        <span>Unggah Karya Videografi</span></a>
+                </li>
+            <?php } ?>
+
             <li class="nav-item">
                 <a class="nav-link" href="/#kompetisi">
                     <i class="fas fa-fw fa-chart-area"></i>
                     <span>Daftar Liliecomp</span></a>
             </li>
 
-            <li class="nav-item">
-                <a class="nav-link" href="/#klinik">
-                    <i class="fas fa-fw fa-chart-area"></i>
-                    <span>Daftar Liliefors</span></a>
-            </li>
+            <?php if ($session->get('liliefors') == 0) { ?>
+                <li class="nav-item">
+                    <a class="nav-link" href="/#klinik">
+                        <i class="fas fa-fw fa-chart-area"></i>
+                        <span>Daftar Liliefors</span></a>
+                </li>
+            <?php } ?>
 
             <!-- Sidebar Toggler (Sidebar) -->
             <div class="text-center d-none d-md-inline">
