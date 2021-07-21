@@ -325,7 +325,7 @@ class Session implements SessionInterface
 		];
 
 		ini_set('session.cookie_samesite', $sameSite);
-		session_set_cookie_params($params);
+		// session_set_cookie_params($params);
 
 		if (! isset($this->sessionExpiration))
 		{

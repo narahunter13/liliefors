@@ -46,7 +46,7 @@ class CodeIgniter
 	 */
 	const CI_VERSION = '4.1.3';
 
-	private const MIN_PHP_VERSION = '7.3';
+	private const MIN_PHP_VERSION = '7.2';
 
 	/**
 	 * App startup time.
@@ -181,7 +181,7 @@ class CodeIgniter
 		}
 
 		// Set default locale on the server
-		locale_set_default($this->config->defaultLocale ?? 'en');
+		// locale_set_default($this->config->defaultLocale ?? 'en');
 
 		// Set default timezone on the server
 		date_default_timezone_set($this->config->appTimezone ?? 'UTC');
@@ -207,7 +207,7 @@ class CodeIgniter
 	{
 		$requiredExtensions = [
 			'curl',
-			'intl',
+			// 'intl',
 			'json',
 			'mbstring',
 			'xml',
