@@ -86,6 +86,7 @@
 
 <section class="px-8 md:px-4 py-10" id="kompetisi">
     <h5 class="text-xl text-center font-black text-white mb-4">LILIECOMP</h5>
+    <div class="w-full flex justify-center"><a href="https://s.stis.ac.id/HandBookLiliecomp2021" class="bg-white rounded daftar text-center px-4 py-2 mt-4 md:w-1/4">HANDBOOK LILIECOMP 2021</a></div>
     <p class="text-justify my-4 text-white font-normal md:px-20">Liliefors Competition merupakan ajang perlombaan tingkat nasional yang meliputi bidang kepenulisan (cerita pendek), fotografi (foto), desain grafis (desain poster), dan videografi (video kreatif). Kompetisi dengan tema "Be Confident and Impact Others" ini bertujuan agar para peserta berani berkarya dalam menuangkan ide dan kreativitasnya. Selain itu, ajang yang terbuka untuk SMA/sederajat dan umum ini bermaksud untuk menemukan karya terbaik yang bermanfaat bagi banyak orang. Karya-karya yang disalurkan akan diseleksi dan dipilih menjadi juara satu, dua, tiga, dan favorit untuk setiap cabang lomba berdasarkan syarat dan ketentuan yang berlaku. Secara otomatis, para peserta Liliecomp akan terdaftar juga dalam kegiatan Liliefors.</p>
     <div class="mt-12 flex flex-col items-center md:flex-row md:justify-between md:px-20">
         <img class="h-60 w-60 md:h-80 md:w-80" src="/assets/img/maskot-01.svg">

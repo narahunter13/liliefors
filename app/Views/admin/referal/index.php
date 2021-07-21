@@ -63,9 +63,9 @@ $success = $session->getFlashdata('success');
                         <tbody>
                             <?php foreach ($kode_referal as $kode) { ?>
                                 <tr>
-                                    <td><?= $kode['kode_referal'] ?></td>
-                                    <td><?= $kode['email_pemilik'] ?></td>
-                                    <td><?= $kode['email_penerima'] ? $kode['email_penerima'] : 'Belum Ada Pengguna' ?></td>
+                                    <td class="text-center"><?= $kode['kode_referal'] ?></td>
+                                    <td><?= $kode['pemilik'] ?></td>
+                                    <td class="text-center"><?= $kode['penggunaan'] ?></td>
                                 </tr>
                             <?php } ?>
                         </tbody>

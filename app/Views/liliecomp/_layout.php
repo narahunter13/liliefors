@@ -95,7 +95,37 @@
     </nav>
 
     <section class="flex flex-col items-center p-4">
-        <?= $this->renderSection('content') ?>
+        <?php if ($terdaftar < 1) { ?>
+            <?= $this->renderSection('content'); ?>
+        <?php } else { ?>
+            <div class="flex flex-col justify-center items-center w-full px-4 md:h-screen md:w-6/12">
+                <?php if ($terbayar['status_pembayaran'] == 1) { ?>
+                    <p class="text-xl font-italic text-white">Anda telah mendaftar lomba ini. Silahkan menuju <a href="<?= base_url('user/pengumuman'); ?>" class="underline">dashboard</a></p>
+                    <div class="mt-8 text-base text-center text-white">*Catatan: Apabila terdapat kesalahan dalam pengisian data diri, silahkan melapor ke panitia melalui:</div>
+                    <div class="text-base text-center text-white">Farah : 0853-3529-8757</div>
+                <?php } else { ?>
+                    <p class="text-xl font-italic text-white">Anda telah mendaftar lomba ini. Silahkan melakukan pembayaran sebesar <b class="text-center">Rp. <?= $terbayar['jumlah_dibayar'] ?></b> ke salah satu media pembayaran berikut:</p>
+                    <ul class="text-xl text-white mt-4 list-disc">
+                        <li>BRI: 613001017517530 (Alya Faradila)</li>
+                        <li>GOPAY: 081385699804 (Alya Faradila)</li>
+                        <li>OVO: 081385699804 (Alya Faradila)</li>
+                        <li>LINK AJA: 081385699804 (Alya Faradila)</li>
+                        <li>BCA: 7065007258 (Gloria Stephany)</li>
+                        <li>DANA: 081225088876 (Gloria Stephany)</li>
+                        <li>SHOPEE PAY: 081225088876 (Gloria Stephany)</li>
+                        <li>MANDIRI : 1320021491114 (Daffa Fadhila Hidayat)</li>
+                    </ul>
+                    <p class="text-xl font-italic text-white mt-4">Setelah itu dimohon untuk melakukan konfirmasi pembayaran pada salah satu kontak di bawah:</p>
+                    <ul class="text-xl text-white mt-2 list-disc">
+                        <li>Alya (BRI, Gopay, OVO, Link Aja): <br><b><a href="http://wa.me/6281385699804">http://wa.me/6281385699804</a></b></li>
+                        <li>Gloria (BCA, Dana, Shopee, Mandiri): <br><b><a href="http://wa.me/6281225088876">http://wa.me/6281225088876</a></b></li>
+                    </ul>
+                    <div class="mt-8 text-base text-center text-white">*Catatan: Apabila terdapat kesalahan dalam pengisian data diri, silahkan melapor ke panitia melalui:</div>
+                    <div class="text-base text-center text-white">Farah : 0853-3529-8757</div>
+                    <a href="<?= base_url(); ?>" class="text-xl font-italic text-white mt-8 underline">Kembali ke beranda</a>
+                <?php } ?>
+            </div>
+        <?php } ?>
     </section>
 
     <footer class="p-4">

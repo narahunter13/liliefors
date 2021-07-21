@@ -11,7 +11,7 @@ class Model_referal extends Model
 
 	public function index()
 	{
-		$sql = "SELECT kode_referal, (SELECT email FROM users WHERE id = kode_referal.pemilik) as email_pemilik, (SELECT email FROM users WHERE id = kode_referal.penerima) as email_penerima FROM kode_referal";
+		$sql = "SELECT kode_referal, pemilik, penggunaan FROM kode_referal";
 		return $this->db->query($sql, [
 			'users' => $this->users,
 			'kode_referal' => $this->kode
@@ -22,7 +22,6 @@ class Model_referal extends Model
 	{
 		return $this->db->table($this->kode)
 						->where('kode_referal', $code)
-						->where('sisa_penggunaan', 1)
 						->countAllResults();
 	}
 
@@ -32,9 +31,17 @@ class Model_referal extends Model
 			->insert($data);
 	}
 
-	public function update_referal($code, $data)
+	private function last_used($code)
 	{
 		return $this->db->table('kode_referal')
-						->update($data, ['kode_referal' => $code, 'sisa_penggunaan' => 0]);
+						->select('penggunaan')
+						->get()
+						->getFirstRow('array');
+	}
+
+	public function update_referal($code)
+	{
+		return $this->db->table('kode_referal')
+						->update(['penggunaan' => $this->last_used($code)['penggunaan'] + 1], ['kode_referal' => $code]);
 	}
 }
