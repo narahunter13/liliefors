@@ -113,7 +113,7 @@
         </div>
     </div>
     <div class="mt-12 flex flex-col items-center md:flex-row-reverse md:justify-between md:px-20">
-        <img class="h-60 w-60 md:h-80 md:w-80" src="/assets/img/maskot-03.svg">
+        <img class="h-60 w-60 md:h-80 md:w-80" src="/assets/img/maskot-04.svg">
         <div class="flex flex-col justify-center md:ml-8">
             <h4 class="text-base font-regular text-white">VIDEOGRAFI</h5>
                 <a href="/liliecomp/videografi" class="bg-white rounded daftar text-center px-4 py-2 mt-4 md:w-1/2">DAFTAR LILIECOMP VIDEOGRAFI</a>

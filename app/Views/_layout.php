@@ -1,5 +1,6 @@
 <?php
 $sess = \Config\Services::session();
+helper('html');
 ?>
 
 <!DOCTYPE html>
@@ -10,6 +11,7 @@ $sess = \Config\Services::session();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/style.css">
+    <?= link_tag('favicon.ico', 'shortcut icon', 'image/ico');?>
     <title><?= $title; ?></title>
 </head>
 
