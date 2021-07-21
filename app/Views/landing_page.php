@@ -3,7 +3,7 @@
 <?= $this->section('content') ?>
 <section id="title" class="flex flex-col justify-center items-center p-10 md:p-20 text-white">
     <h5 class="font-black text-4xl text-center">LILIEFORS 2021</h5>
-    <h5 class="font-light text-base md:text-xl text-center italic">"Ipsum consectetur non proident proident commodo consequat ex."</h5>
+    <h5 class="font-light text-base md:text-xl text-center italic">"Be Confident adn Impact Others"</h5>
     <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="320px" height="320px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 9144 9144" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
         <defs>
             <style type="text/css">
@@ -81,17 +81,18 @@
             </g>
         </g>
     </svg>
-    <h5 class="font-light text-sm md:text-base text-justify">Minim ullamco occaecat Lorem minim labore. Sunt voluptate in fugiat cillum dolor occaecat culpa nostrud do incididunt proident magna eu deserunt. Sit eiusmod velit dolor consectetur ut proident aliqua adipisicing in. Nulla labore ipsum laborum esse. Commodo adipisicing nulla in esse id nulla fugiat fugiat aute ex do. Consequat sit qui incididunt qui veniam laborum. Quis ad excepteur ad amet esse.</h5>
+    <h5 class="font-light text-sm md:text-base text-justify">Liliefors adalah akronim dari Klinik Penulisan, Desain Grafis, dan Fotografi STIS. Acara Lilifors 2021 merupakan rangkaian kegitan Online Talkshow yang mempertemukan peserta dengan para pembicara sesuai dengan bidangnya. Mengusung tema “Be Confident and Impact Other”, Liliefors diharapkan dapat memberikan kepercayaan diri dan meningkatkan motivasi peserta untuk berkarya dan memberi manfaat bagi sesama. Selain itu, Liliefors juga dikemas secara interaktif, menarik, dan tentunya menginspirasi.</h5>
 </section>
 
 <section class="px-8 md:px-4 py-10" id="kompetisi">
-    <h5 class="text-xl text-center font-black text-white mb-4">KOMPETISI</h5>
+    <h5 class="text-xl text-center font-black text-white mb-4">LILIECOMP</h5>
+    <p class="text-justify my-4 text-white font-normal md:px-20">Liliefors Competition merupakan ajang perlombaan tingkat nasional yang meliputi bidang kepenulisan (cerita pendek), fotografi (foto), desain grafis (desain poster), dan videografi (video kreatif). Kompetisi dengan tema "Be Confident and Impact Others" ini bertujuan agar para peserta berani berkarya dalam menuangkan ide dan kreativitasnya. Selain itu, ajang yang terbuka untuk SMA/sederajat dan umum ini bermaksud untuk menemukan karya terbaik yang bermanfaat bagi banyak orang. Karya-karya yang disalurkan akan diseleksi dan dipilih menjadi juara satu, dua, tiga, dan favorit untuk setiap cabang lomba berdasarkan syarat dan ketentuan yang berlaku. Secara otomatis, para peserta Liliecomp akan terdaftar juga dalam kegiatan Liliefors.</p>
     <div class="mt-12 flex flex-col items-center md:flex-row md:justify-between md:px-20">
         <img class="h-60 w-60 md:h-80 md:w-80" src="/assets/img/maskot-01.svg">
         <div class="flex flex-col justify-center md:ml-8">
             <h4 class="text-base font-regular text-white">PENULISAN</h5>
                 <a href="/liliecomp/penulisan" class="bg-white rounded daftar text-center px-4 py-2 mt-4 md:w-1/2">DAFTAR LILIECOMP PENULISAN</a>
-                <p class="mt-4 text-white text-justify font-thin">Adipisicing in incididunt esse excepteur culpa proident aliqua sunt. Ipsum id labore in esse deserunt cillum. Occaecat consectetur irure esse consequat enim Lorem anim do fugiat Lorem pariatur.Minim minim proident Lorem do laborum aliqua officia minim amet labore. In tempor laboris ut officia cillum voluptate cillum ex est laboris est laborum mollit qui. Veniam consectetur eu irure ipsum labore nulla est labore nulla id ut. Dolor nostrud exercitation ea non et esse quis.</p>
+                <p class="mt-4 text-white text-justify font-normal">Nama manusia dapat abadi dan dikenang melalui karya, tak terkecuali karya tulis. Cerpen hanyalah satu di antara beragam bentuk karya tulis. Cerpen menjadi media untuk meninggalkan tanda melalui cerita fantasi maupun pasti. Bertemakan "Break My Fear, Build My Confidence", ciptakan cerpen yang menarik dan menginspiras</p>
         </div>
     </div>
     <div class="mt-12 flex flex-col items-center md:flex-row-reverse md:justify-between md:px-20">
@@ -99,7 +100,7 @@
         <div class="flex flex-col justify-center md:mr-8">
             <h4 class="text-base font-regular text-white">FOTOGRAFI</h5>
                 <a href="/liliecomp/fotografi" class="bg-white rounded daftar text-center px-4 py-2 mt-4 md:w-1/2">DAFTAR LILIECOMP FOTOGRAFI</a>
-                <p class="mt-4 text-white text-justify font-thin">Adipisicing in incididunt esse excepteur culpa proident aliqua sunt. Ipsum id labore in esse deserunt cillum. Occaecat consectetur irure esse consequat enim Lorem anim do fugiat Lorem pariatur.Minim minim proident Lorem do laborum aliqua officia minim amet labore. In tempor laboris ut officia cillum voluptate cillum ex est laboris est laborum mollit qui. Veniam consectetur eu irure ipsum labore nulla est labore nulla id ut. Dolor nostrud exercitation ea non et esse quis.</p>
+                <p class="mt-4 text-white text-justify font-normal">Keadaan itu dinamis dan terikat waktu. Foto mengubahnya menjadi statis di satu waktu tertentu. Foto adalah media berbentuk dua dimensi yang menangkap momen tanpa suara dengan pesan dan sejarah. Sejalan dengan tema "Inhale Confidence, Exhale Diffidence", tangkap dan abadikan momen dalam suatu foto nan inspiratif</p>
         </div>
     </div>
     <div class="mt-12 flex flex-col items-center md:flex-row md:justify-between md:px-20">
@@ -107,19 +108,20 @@
         <div class="flex flex-col justify-center md:ml-8">
             <h4 class="text-base font-regular text-white">DESAIN GRAFIS</h5>
                 <a href="/liliecomp/desain" class="bg-white rounded daftar text-center px-4 py-2 mt-4 md:w-1/2">DAFTAR LILIECOMP DESAIN GRAFIS</a>
-                <p class="mt-4 text-white text-justify font-thin">Adipisicing in incididunt esse excepteur culpa proident aliqua sunt. Ipsum id labore in esse deserunt cillum. Occaecat consectetur irure esse consequat enim Lorem anim do fugiat Lorem pariatur.Minim minim proident Lorem do laborum aliqua officia minim amet labore. In tempor laboris ut officia cillum voluptate cillum ex est laboris est laborum mollit qui. Veniam consectetur eu irure ipsum labore nulla est labore nulla id ut. Dolor nostrud exercitation ea non et esse quis.</p>
+                <p class="mt-4 text-white text-justify font-normal">Manusia dapat menangkap suatu nilai atau pesan tak hanya melalui kata, tetapi juga rupa. Rangkaian bentuk dan warna yang harmonis dengan sedikit sentuhan tipografi yang apik dapat menjadi sarana penyampai pesan untuk sesama. Dengan tema "I Am Beyond Myself", sampaikan pesanmu melalui desain poster yang sarat makna</p>
         </div>
     </div>
     <div class="mt-12 flex flex-col items-center md:flex-row-reverse md:justify-between md:px-20">
         <img class="h-60 w-60 md:h-80 md:w-80" src="/assets/img/maskot-03.svg">
         <div class="flex flex-col justify-center md:ml-8">
             <h4 class="text-base font-regular text-white">VIDEOGRAFI</h5>
-                <a href="/liliecomp/videografi" class="bg-white rounded daftar text-center px-4 py-2 mt-4 md:w-1/2">DAFTAR LILIECOMP DESAIN GRAFIS</a>
-                <p class="mt-4 text-white text-justify font-thin">Adipisicing in incididunt esse excepteur culpa proident aliqua sunt. Ipsum id labore in esse deserunt cillum. Occaecat consectetur irure esse consequat enim Lorem anim do fugiat Lorem pariatur.Minim minim proident Lorem do laborum aliqua officia minim amet labore. In tempor laboris ut officia cillum voluptate cillum ex est laboris est laborum mollit qui. Veniam consectetur eu irure ipsum labore nulla est labore nulla id ut. Dolor nostrud exercitation ea non et esse quis.</p>
+                <a href="/liliecomp/videografi" class="bg-white rounded daftar text-center px-4 py-2 mt-4 md:w-1/2">DAFTAR LILIECOMP VIDEOGRAFI</a>
+                <p class="mt-4 text-white text-justify font-normal">Paduan antara visual dan audio dalam suatu jalin cerita dapat menggugah perasaan para pemirsanya. Menyisipkan nilai-nilai baik dalam suatu karya video barangkali dapat menjadikan nilai-nilai tersebut lebih mudah dipahami. Dengan tema "Self Confidence", tebarkan rasa percaya diri melalui karya video</p>
         </div>
     </div>
 </section>
 
+<?php if(true == false) {?>
 <section class="px-4 py-10" id="klinik">
     <h5 class="text-xl text-center font-black text-white mx-auto">KLINIK</h5>
     <div class="flex flex-col divide-y divide-white text-white md:divide-none">
@@ -174,7 +176,7 @@
         <iframe class="absolute inset-0 w-full h-full" src="https://www.youtube.com/embed/ya2b97iXlHk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 </section>
-
+<?php }?>
 <script>
     var burger_landing = document.getElementById('burger-landing');
     var burger_background_landing = document.getElementById('burger-background-landing');

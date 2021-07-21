@@ -20,7 +20,11 @@ class Registrasi extends BaseController
 
 	public function index()
 	{
-		return view('registrasi');
+		if ($this->session->get('isLoggedIn')) {
+			return redirect()->to(base_url());
+		} else {
+			return view('registrasi');
+		}
 	}
 
 	public function create()
@@ -42,7 +46,7 @@ class Registrasi extends BaseController
 			'nama' => 'required|min_length[3]',
 			'password' => 'required|min_length[5]',
 			'konfirmasi' => 'required|matches[password]'
-		],[
+		], [
 			'email' => [
 				'required' => "Email harus diisi",
 				'valid_email' => "Format email salah"
@@ -61,7 +65,7 @@ class Registrasi extends BaseController
 			]
 		]);
 
-		if($this->validation->run($test)) {
+		if ($this->validation->run($test)) {
 			$data = [
 				'email' =>  $email,
 				'nama' => $nama,

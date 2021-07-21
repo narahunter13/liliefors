@@ -7,7 +7,7 @@ use App\Models\Model_referal;
 use App\Models\Model_users;
 use App\Models\ModelPeserta;
 
-class Fotografi extends BaseController
+class Liliefors extends BaseController
 {
     private $validation;
     private $m_referal;
@@ -15,9 +15,9 @@ class Fotografi extends BaseController
     private $m_peserta;
     private $session;
 
-    private $title = "Fotografi";
-    private $view_path = "fotografi";
-    private $kode_lomba = 3;
+    private $title = "Liliefors";
+    private $view_path = "liliefors";
+    private $kode_lomba = 1;
     private $jumlah_dibayar_umum = 30000;
     private $jumlah_dibayar_sma = 25000;
 
@@ -155,10 +155,10 @@ class Fotografi extends BaseController
 
             $this->m_peserta->tambah_peserta($peserta);
 
-            return redirect()->to(base_url('liliecomp/fotografi'));
+            return redirect()->to(base_url('liliecomp/liliefors'));
         } else {
             $this->session->setFlashdata('errors', $this->validation->getErrors());
-            return redirect()->to(base_url('liliecomp/fotografi'))->withInput();
+            return redirect()->to(base_url('liliecomp/liliefors'))->withInput();
         }
     }
 }

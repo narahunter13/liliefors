@@ -2,6 +2,7 @@
 
 namespace Config;
 
+use App\Filters\APISecure;
 use App\Filters\Auth_Admin;
 use App\Filters\Auth_User;
 use CodeIgniter\Config\BaseConfig;
@@ -22,7 +23,8 @@ class Filters extends BaseConfig
 		'toolbar'  => DebugToolbar::class,
 		'honeypot' => Honeypot::class,
 		'cek_admin' => Auth_Admin::class,
-		'cek_user' => Auth_User::class
+		'cek_user' => Auth_User::class,
+		'api_secure' => APISecure::class
 	];
 
 	/**
@@ -62,5 +64,16 @@ class Filters extends BaseConfig
 	 *
 	 * @var array
 	 */
-	public $filters = [];
+	public $filters = [
+		'api_secure' => [
+			'before' => [
+				'api/*'
+			]
+		],
+		'cek_user' => [
+			'before' => [
+				'liliecomp/*'
+			]
+		]
+	];
 }

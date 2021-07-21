@@ -9,7 +9,7 @@ $errors = $session->getFlashdata('errors');
 
 <?php if ($terdaftar < 1) { ?>
     <div class="rounded-sm shadow-lg px-4 py-2 bg-white w-full lg:w-6/12">
-        <h5 class="text-lg text-center font-black">FORM PENDAFTARAN LILIECOMP DESAIN GRAFIS</h5>
+        <h5 class="text-lg text-center font-black">FORM PENDAFTARAN LILIEFORS</h5>
     </div>
 
     <div class="rounded-sm shadow-lg p-4 bg-white w-full mt-4 lg:w-6/12">
@@ -52,12 +52,12 @@ $errors = $session->getFlashdata('errors');
         </form>
     </div>
 <?php } else { ?>
-    <<div class="flex flex-col justify-center items-center w-full px-4 md:h-screen md:w-6/12">
+    <div class="h-screen flex flex-col justify-center items-center w-6/12">
         <?php if ($terbayar['status_pembayaran'] == 1) { ?>
             <p class="text-xl font-italic text-white">Anda telah mendaftar lomba ini. Silahkan menuju dashboard</p>
         <?php } else { ?>
             <p class="text-xl font-italic text-white">Anda telah mendaftar lomba ini. Silahkan melakukan pembayaran sebesar Rp. <?= $terbayar['jumlah_dibayar'] ?> ke salah satu media pemabayaran berikut:</p>
-            <ul class="text-xl text-white mt-4 list-disc">
+            <ul class="text-xl text-white mt-2">
                 <li>BRI: 613001017517530 (Alya Faradila)</li>
                 <li>GOPAY: 081385699804 (Alya Faradila)</li>
                 <li>OVO: 081385699804 (Alya Faradila)</li>
@@ -65,10 +65,10 @@ $errors = $session->getFlashdata('errors');
                 <li>BCA: 7065007258 (Gloria Stephany)</li>
                 <li>DANA: 081225088876 (Gloria Stephany)</li>
                 <li>SHOPEE PAY: 081225088876 (Gloria Stephany)</li>
-                <li>MANDIRI : 1320021491114 Daffa Fadhila Hidayat</li>
+                <li>MANDIRI : 1320021491114 Daffa Fadhila Hidaya</li>
             </ul>
             <p class="text-xl font-italic text-white mt-4">Setelah itu dimohon untuk melakukan konfirmasi pembayaran pada salah satu kontak di bawah:</p>
-            <ul class="text-xl text-white mt-2 list-disc">
+            <ul class="text-xl text-white mt-2">
                 <li>Alya: <a href="http://wa.me/6281385699804">http://wa.me/6281385699804</a></li>
                 <li>Gloria: <a href="http://wa.me/6281225088876">http://wa.me/6281225088876</a></li>
             </ul>

@@ -147,46 +147,42 @@ $session = \Config\Services::session();
                     <span>Pengumuman</span></a>
             </li>
 
+            <?php if(true == false) {?>
             <!-- Nav Item - Utilities Collapse Menu -->
             <li class="nav-item<?= $active == "Linimasa" ? ' active' : "" ?>">
                 <a class="nav-link" href="/user/linimasa">
-                    <i class="fas fa-fw fa-chart-area"></i>
-                    <span>Linimasa</span></a>
+                <i class="fas fa-fw fa-chart-area"></i>
+                <span>Linimasa</span></a>
             </li>
+            <?php }?>
 
-            <li class="nav-item<?= $active == "Sunting" ? ' active' : "" ?>">
-                <a class="nav-link" href="/user/sunting">
-                    <i class="fas fa-fw fa-chart-area"></i>
-                    <span>Sunting Profil</span></a>
-            </li>
-
-            <?php if ($session->get('penulisan') == 1) { ?>
-                <li class="nav-item<?= $active == 'penulisan' ? ' penulisan' : ''; ?>">
-                    <a class="nav-link" href="/#klinik">
+            <?php if ((true == false) && $session->get('penulisan') == 1) { ?>
+                <li class="nav-item<?= $active == 'penulisan' ? ' active' : ''; ?>">
+                    <a class="nav-link" href="/user/unggah-penulisan">
                         <i class="fas fa-fw fa-chart-area"></i>
                         <span>Unggah Karya Penulisan</span></a>
                 </li>
             <?php } ?>
 
-            <?php if ($session->get('fotografi') == 1) { ?>
-                <li class="nav-item<?= $active == 'fotografi' ? ' fotografi' : ''; ?>">
-                    <a class="nav-link" href="/#klinik">
+            <?php if ((true == false) && $session->get('fotografi') == 1) { ?>
+                <li class="nav-item<?= $active == 'fotografi' ? ' active' : ''; ?>">
+                    <a class="nav-link" href="/user/unggah-fotografi">
                         <i class="fas fa-fw fa-chart-area"></i>
                         <span>Unggah Karya Fotografi</span></a>
                 </li>
             <?php } ?>
 
-            <?php if ($session->get('desain') == 1) { ?>
-                <li class="nav-item<?= $active == 'desain' ? ' desain' : ''; ?>">
-                    <a class="nav-link" href="/#klinik">
+            <?php if ((true == false) && $session->get('desain') == 1) { ?>
+                <li class="nav-item<?= $active == 'desain' ? ' active' : ''; ?>">
+                    <a class="nav-link" href="/user/unggah-desain">
                         <i class="fas fa-fw fa-chart-area"></i>
-                        <span>Unggah Karya Desain Grafis</span></a>
+                        <span>Unggah Karya Desain</span></a>
                 </li>
             <?php } ?>
 
-            <?php if ($session->get('videografi') == 1) { ?>
-                <li class="nav-item<?= $active == 'videografi' ? ' videografi' : ''; ?>">
-                    <a class="nav-link" href="/#klinik">
+            <?php if ((true == false) && $session->get('videografi') == 1) { ?>
+                <li class="nav-item<?= $active == 'videografi' ? ' active' : ''; ?>">
+                    <a class="nav-link" href="/user/unggah-videografi">
                         <i class="fas fa-fw fa-chart-area"></i>
                         <span>Unggah Karya Videografi</span></a>
                 </li>
@@ -198,7 +194,7 @@ $session = \Config\Services::session();
                     <span>Daftar Liliecomp</span></a>
             </li>
 
-            <?php if ($session->get('liliefors') == 0) { ?>
+            <?php if ((true == false) && $session->get('liliefors') == 0) { ?>
                 <li class="nav-item">
                     <a class="nav-link" href="/#klinik">
                         <i class="fas fa-fw fa-chart-area"></i>
@@ -236,14 +232,14 @@ $session = \Config\Services::session();
                         <!-- Nav Item - User Information -->
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Nama</span>
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?= $session->get('nama'); ?></span>
                                 <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
                             </a>
                             <!-- Dropdown - User Information -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
-                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                                <a class="dropdown-item" href="/masuk/logout" data-toggle="modal" data-target="#logoutModal">
                                     <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
-                                    Logout
+                                    Keluar
                                 </a>
                             </div>
                         </li>
@@ -295,15 +291,15 @@ $session = \Config\Services::session();
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Keluar</h5>
                     <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">×</span>
                     </button>
                 </div>
-                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                <div class="modal-body">Anda yakin ingin keluar?</div>
                 <div class="modal-footer">
-                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-primary" href="login.html">Logout</a>
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Batal</button>
+                    <a class="btn btn-primary" href="/masuk/logout">Yakin</a>
                 </div>
             </div>
         </div>

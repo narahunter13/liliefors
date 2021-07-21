@@ -29,8 +29,12 @@ class Auth_Admin implements FilterInterface
 		$role = $session->get('role');
 
 		//Cek Role dan Session
-		if(!session('isLoggedIn') || $role > 1) {
-			return redirect()->to(base_url('/user/pengumuman'));
+		if(!session('isLoggedIn')) {
+			return redirect()->to(base_url('masuk'));
+		} else {
+			if ($role > 1) {
+				return redirect()->to(base_url('/user/pengumuman'));
+			}
 		}
 	}
 

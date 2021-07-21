@@ -25,6 +25,31 @@ function lomba_mapping($params)
     return $lomba;
 }
 
+function lomba_mapping2($params)
+{
+    $lomba = "";
+
+    switch ($params) {
+        case 1:
+            $lomba = "liliefors";
+            break;
+        case 2:
+            $lomba = "penulisan";
+            break;
+        case 3:
+            $lomba = "fotografi";
+            break;
+        case 4:
+            $lomba = "desain";
+            break;
+        case 5:
+            $lomba = "videografi";
+            break;
+    }
+
+    return $lomba;
+}
+
 function status_pembayaran($params, $id)
 {
     if ($params == 0) {
@@ -38,10 +63,30 @@ function status_pembayaran($params, $id)
     }
 }
 
-function get_error($parent, $params) {
-    if(isset($parent)) {
+function get_error($parent, $params)
+{
+    if (isset($parent)) {
         return isset($parent[$params]) ? $parent[$params] : "";
     }
 
     return '';
+}
+
+function jenjang_mapping($jenjang)
+{
+    switch($jenjang) {
+        case 1:
+            return "Umum";
+            break;
+        case 2:
+            return "SMA";
+            break;
+    }
+}
+
+function email_template($lomba, $nama, $total)
+{
+    $email = ``;
+
+    return $email;
 }

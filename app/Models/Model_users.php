@@ -26,4 +26,17 @@ class Model_users extends Model
 						->getWhere(['email' => $email])
 						->getFirstRow();
 	}
+
+	public function find_email($params)
+	{
+		return $this->db->table('users')
+						->getWhere(['id' => $params])
+						->getFirstRow('array');
+	}
+
+	public function update_data($id, $data)
+	{
+		return $this->db->table('users')
+						->update($data, ['id' => $id]);
+	}
 }

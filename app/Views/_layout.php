@@ -1,3 +1,7 @@
+<?php
+$sess = \Config\Services::session();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -93,11 +97,17 @@
             <h5 class="title text-lg text-white text-center flex flex-col justify-center">L I L I E F O R S</h5>
         </div>
         <div class="link md:text-white md:flex md:justify-center md:items-center md:px-4">
-            <a class="md:mx-4 sub-link" href="#kompetisi">KOMPETISI</a>
+            <a class="md:mx-4 sub-link" href="#kompetisi">LILIECOMP</a>
+            <?php if(true==false) {?>
             <a class="md:mx-4 sub-link" href="#klinik">KLINIK</a>
             <a class="md:mx-4 sub-link" href="#galeri">GALERI</a>
-            <a class="md:mx-4 sub-link" href="/registrasi">REGISTRASI</a>
-            <a class="md:mx-4 masuk-button md:rounded-md md:py-2 md:px-4 md:font-medium" href="/masuk">MASUK</a>
+            <?php }?>
+            <?php if (!$sess->get('isLoggedIn')) { ?>
+                <a class="md:mx-4 sub-link" href="/registrasi">REGISTRASI</a>
+                <a class="md:mx-4 masuk-button md:rounded-md md:py-2 md:px-4 md:font-medium" href="/masuk">MASUK</a>
+            <?php } else { ?>
+                <a class="md:mx-4 masuk-button md:rounded-md md:py-2 md:px-4 md:font-medium" href="<?= $sess->get('role') == 1 ? '/admin/pengumuman' : '/user/pengumuman'; ?>">DASHBOARD</a>
+            <?php } ?>
         </div>
     </nav>
     <nav id="navbar_mobile" class="flex w-full flex-row justify-between p-2 sticky top-0 lg:hidden z-40">
@@ -195,7 +205,11 @@
             <a class="text-white text-base font-normal rounded-lg py-4 w-10/12 mx-4 my-2" href="#kompetisi">KOMPETISI</a>
             <a class="text-white text-base font-normal rounded-lg py-4 w-10/12 mx-4 my-2" href="#klinik">KLINIK</a>
             <a class="text-white text-base font-normal rounded-lg py-4 w-10/12 mx-4 my-2" href="#galeri">GALERI</a>
-            <a class="text-white text-base font-normal rounded-lg py-4 w-10/12 mx-4 my-2" href="/masuk">MASUK</a>
+            <?php if (!$sess->get('isLoggedIn')) { ?>
+                <a class="text-white text-base font-normal rounded-lg py-4 w-10/12 mx-4 my-2" href="/masuk">MASUK</a>
+                <?php } else { ?>
+                    <a class="text-white text-base font-normal rounded-lg py-4 w-10/12 mx-4 my-2" href="<?= $sess->get('role') == 1 ? '/admin/pengumuman' : '/user/pengumuman'; ?>">DASHBOARD</a>
+            <?php } ?>
         </div>
     </div>
 

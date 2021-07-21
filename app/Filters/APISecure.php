@@ -2,11 +2,12 @@
 
 namespace App\Filters;
 
+use CodeIgniter\Config\Services;
 use CodeIgniter\Filters\FilterInterface;
 use CodeIgniter\HTTP\RequestInterface;
 use CodeIgniter\HTTP\ResponseInterface;
 
-class Auth_User implements FilterInterface
+class APISecure implements FilterInterface
 {
 	/**
 	 * Do whatever processing this filter needs to do.
@@ -26,15 +27,14 @@ class Auth_User implements FilterInterface
 	public function before(RequestInterface $request, $arguments = null)
 	{
 		$session = \Config\Services::session();
-		$role = $session->get('role');
 
 		//Cek Role dan Session
-		if (!session('isLoggedIn')) {
-			return redirect()->to(base_url('masuk'));
-		} else {
-			if ($role < 2) {
-				return redirect()->to(base_url('admin/pengumuman'));
-			}
+		if(!session('isLoggedIn')) {
+			$data = [
+				'success' => false
+			];
+
+			return Services::response()->setJSON($data)->setStatusCode(ResponseInterface::HTTP_UNAUTHORIZED);
 		}
 	}
 

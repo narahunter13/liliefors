@@ -17,7 +17,11 @@ class Masuk extends BaseController
 
 	public function index()
 	{
-		return view('masuk');
+		if($this->session->get('isLoggedIn')) {
+			return redirect()->to(base_url());
+		} else {
+			return view('masuk');
+		}
 	}
 
 	public function auth()
@@ -33,6 +37,8 @@ class Masuk extends BaseController
 				$data_session = [
 					'isLoggedIn' => true,
 					'role' => $data->role,
+					'id' => $data->id,
+					'nama' => $data->nama,
 					'liliefors' => $data->liliefors,
 					'penulisan' => $data->penulisan,
 					'fotografi' => $data->fotografi,
@@ -55,5 +61,11 @@ class Masuk extends BaseController
 			$this->session->setFlashdata('failed', "Email atau Kata Sandi Salah");
 			return redirect()->to(base_url('/masuk'));
 		}
+	}
+
+	public function logout()
+	{
+		$this->session->destroy();
+		return redirect()->to(base_url());
 	}
 }
