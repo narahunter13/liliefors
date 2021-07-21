@@ -91,7 +91,7 @@
             </g>
         </svg>
         <div class="border border-white mx-2 h-10 my-auto"></div>
-        <h5 class="title text-lg text-white text-center flex flex-col justify-center">L I L I E C O M P</h5>
+        <a href="<?= base_url(); ?>" class="title text-lg text-white text-center flex flex-col justify-center">L I L I E C O M P</a>
     </nav>
 
     <section class="flex flex-col items-center p-4">

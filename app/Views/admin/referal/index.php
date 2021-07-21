@@ -17,16 +17,13 @@ $success = $session->getFlashdata('success');
             </div>
             <form action="/admin/referal/store" method="post">
                 <div class="modal-body">
-                    <label for="email-pemilik">Email Pemilik</label>
-                    <br>
-                    <select name="email-pemilik" id="email-pemilik" class="email-pemilik custom-select">
-                        <?php foreach ($emails as $email) { ?>
-                            <option value="<?= $email['id'] ?>"><?= $email['email'] ?></option>
-                        <?php } ?>
-                    </select>
+                    <div class="form-group">
+                        <label for="email-pemilik">Email Pemilik</label>
+                        <input type="text" name="email-pemilik" class="form-control" id="email-pemilik">
+                    </div>
                     <div class="form-group">
                         <label for="kode">Kode</label>
-                        <input type="text" name="kode" class="form-control" id="kode" readonly>
+                        <input type="text" name="kode" class="form-control" id="kode">
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -78,21 +75,4 @@ $success = $session->getFlashdata('success');
         </div>
     </div>
 </div>
-
-<script>
-    function makeid(length) {
-        var result = '';
-        var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
-        var charactersLength = characters.length;
-        for (var i = 0; i < length; i++) {
-            result += characters.charAt(Math.floor(Math.random() *
-                charactersLength));
-        }
-        return result;
-    }
-
-    $('#modal-button').on('click', function() {
-        $('#kode').attr('value', makeid(5));
-    });
-</script>
 <?= $this->endSection(); ?>

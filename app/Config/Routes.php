@@ -80,9 +80,9 @@ $routes->get('/user/linimasa', 'User\Linimasa::index', ['filter' => 'cek_user'])
 // Liliecomp
 $routes->addRedirect('/liliecomp', '/#kompetisi');
 $routes->get('/liliecomp/desain', 'liliecomp\Desain::index');
-$routes->post('/liliecomp/desain/daftar', 'liliecomp\Fotografi::daftar');
+$routes->post('/liliecomp/desain/daftar', 'liliecomp\Desain::daftar');
 $routes->get('/liliecomp/fotografi', 'liliecomp\Fotografi::index');
-$routes->post('/liliecomp/fotografi/daftar', 'liliecomp\Desain::daftar');
+$routes->post('/liliecomp/fotografi/daftar', 'liliecomp\Fotografi::daftar');
 $routes->get('/liliecomp/penulisan', 'liliecomp\Penulisan::index');
 $routes->post('/liliecomp/penulisan/daftar', 'liliecomp\Penulisan::daftar');
 $routes->get('/liliecomp/videografi', 'liliecomp\Videografi::index');

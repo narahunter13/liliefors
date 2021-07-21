@@ -117,6 +117,7 @@ $errors = $session->getFlashdata('errors');
         $('#kode_referal').on('keyup', function() {
             $kode = $(this).val();
             $.ajax({
+            	type: 'GET',
                 dataType: 'json',
                 url: '<?= base_url('api/referal') ?>/' + $kode,
                 success: function(data) {

@@ -198,13 +198,15 @@ $sess = \Config\Services::session();
             </svg>
         </div>
     </nav>
-    <div id="burger-background-landing" class="bg-black h-screen w-screen z-40 sticky top-0 left-0 lg:hidden"></div>
+    <div id="burger-background-landing" class="bg-black h-screen w-screen z-40 fixed top-0 left-0 lg:hidden"></div>
 
-    <div id="burger-navigation-landing" class="h-screen nav-mobile w-8/12 sticky top-0 z-50 text-center lg:hidden">
+    <div id="burger-navigation-landing" class="h-screen nav-mobile w-8/12 fixed top-0 z-50 text-center lg:hidden">
         <div class="flex flex-col items-center">
             <a class="text-white text-base font-normal rounded-lg py-4 w-10/12 mx-4 my-2" href="#kompetisi">KOMPETISI</a>
-            <a class="text-white text-base font-normal rounded-lg py-4 w-10/12 mx-4 my-2" href="#klinik">KLINIK</a>
+            <?php if(true==false) {?>
+        	<a class="text-white text-base font-normal rounded-lg py-4 w-10/12 mx-4 my-2" href="#klinik">KLINIK</a>
             <a class="text-white text-base font-normal rounded-lg py-4 w-10/12 mx-4 my-2" href="#galeri">GALERI</a>
+        	<?php }?>
             <?php if (!$sess->get('isLoggedIn')) { ?>
                 <a class="text-white text-base font-normal rounded-lg py-4 w-10/12 mx-4 my-2" href="/masuk">MASUK</a>
                 <?php } else { ?>
