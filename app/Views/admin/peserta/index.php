@@ -15,6 +15,7 @@
             <form action="/admin/peserta/ubah" method="post">
                 <div class="modal-body">
                     <input type="hidden" id="id" name="id">
+                    <input type="hidden" id="kode_referal" name="kode_referal">
                     Apakah Anda yakin bahwa peserta sudah melakukan konfirmasi pembayaran?
                 </div>
                 <div class="modal-footer">
@@ -53,7 +54,7 @@
                                     <td class="text-center"><?= $row['email'] ?></td>
                                     <td class="text-center"><?= lomba_mapping($row['lomba']) ?></td>
                                     <td class="text-center"><?= $row['jumlah_dibayar'] ?></td>
-                                    <td class="text-center"><?= status_pembayaran($row['status_pembayaran'], $row['id']); ?></td>
+                                    <td class="text-center"><?= status_pembayaran($row['status_pembayaran'], $row['id'], isset($row['kode_referal']) ? $row['kode_referal'] : ""); ?></td>
                                 </tr>
                             <?php } ?>
                         </tbody>
@@ -65,8 +66,9 @@
 </div>
 
 <script>
-    function pass($params) {
+    function pass($params, $kode) {
         $('#id').attr('value', $params);
+        $('#kode_referal').attr('value', $kode);
     }
 </script>
 

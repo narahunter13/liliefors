@@ -50,10 +50,10 @@ function lomba_mapping2($params)
     return $lomba;
 }
 
-function status_pembayaran($params, $id)
+function status_pembayaran($params, $id, $kode=NULL)
 {
     if ($params == 0) {
-        return "<button type='button' onclick='pass(" . $id . ")' class='btn btn-danger' data-toggle='modal' data-target='#status-bayar'>
+        return "<button type='button' onclick='pass(" . $id . ", \"" . is_null($kode) ? '' : $kode . "\")' class='btn btn-danger' data-toggle='modal' data-target='#status-bayar'>
         Belum Dibayar
       </button>";
     } else {

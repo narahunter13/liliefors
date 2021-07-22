@@ -145,7 +145,8 @@ class Liliefors extends BaseController
             } else {
                 $this->m_users->update_data($this->session->get('id'), $users);
                 if ($this->is_valid_referal($kode_referal)) {
-                    $this->m_referal->update_referal($kode_referal);
+                    // $this->m_referal->update_referal($kode_referal);
+                    $peserta['kode_referal'] = $kode_referal;
                     $peserta['jumlah_dibayar'] -= 5000;
                 }
             }
