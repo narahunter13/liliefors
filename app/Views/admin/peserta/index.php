@@ -41,6 +41,7 @@
                                 <th>Nama</th>
                                 <th>Email</th>
                                 <th>Kategori</th>
+                                <th>Nomor WA</th>
                                 <th>Total Pembayaran</th>
                                 <th>Ubah Status</th>
                             </tr>
@@ -53,6 +54,7 @@
                                     <td class="text-center"><?= $row['nama'] ?></td>
                                     <td class="text-center"><?= $row['email'] ?></td>
                                     <td class="text-center"><?= lomba_mapping($row['lomba']) ?></td>
+                                    <td class="text-center"><?= isset($row['no_wa']) ? $row['no_wa'] : "-"; ?></td>
                                     <td class="text-center"><?= $row['jumlah_dibayar'] ?></td>
                                     <td class="text-center"><?= status_pembayaran($row['status_pembayaran'], $row['id'], isset($row['kode_referal']) ? $row['kode_referal'] : ""); ?></td>
                                 </tr>
