@@ -100,8 +100,8 @@ helper('html');
         </div>
         <div class="link md:text-white md:flex md:justify-center md:items-center md:px-4">
             <a class="md:mx-4 sub-link" href="#kompetisi">LILIECOMP</a>
-            <?php if(true==false) {?>
             <a class="md:mx-4 sub-link" href="#klinik">KLINIK</a>
+            <?php if(true==false) {?>
             <a class="md:mx-4 sub-link" href="#galeri">GALERI</a>
             <?php }?>
             <?php if (!$sess->get('isLoggedIn')) { ?>
@@ -205,8 +205,8 @@ helper('html');
     <div id="burger-navigation-landing" class="h-screen nav-mobile w-8/12 fixed top-0 z-50 text-center lg:hidden">
         <div class="flex flex-col items-center">
             <a class="text-white text-base font-normal rounded-lg py-4 w-10/12 mx-4 my-2" href="#kompetisi">KOMPETISI</a>
-            <?php if(true==false) {?>
         	<a class="text-white text-base font-normal rounded-lg py-4 w-10/12 mx-4 my-2" href="#klinik">KLINIK</a>
+            <?php if(true==false) {?>
             <a class="text-white text-base font-normal rounded-lg py-4 w-10/12 mx-4 my-2" href="#galeri">GALERI</a>
         	<?php }?>
             <?php if (!$sess->get('isLoggedIn')) { ?>
