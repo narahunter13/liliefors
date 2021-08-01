@@ -122,54 +122,57 @@
     </div>
 </section>
 
-<?php if(true == false) {?>
 <section class="px-4 py-10" id="klinik">
     <h5 class="text-xl text-center font-black text-white mx-auto">KLINIK</h5>
+    <p class="text-justify px-4 my-4 text-white font-normal md:px-20">Klinik Penulisan, Desain Grafis, Fotografi, dan Videografi tak lain merupakan inti dari rangkaian acara Liliefors 2021. Lain dari yang lain, klinik kali ini tentunya sangat spesial dengan hadirnya bidang videografi sebagai bidang baru dalam acara tahunan Klinik Liliefors. Dikemas dalam satu rangkaian online talkshow, empat pembicara dari masing-masing bidang akan berbagi pengalaman dan inspirasi dengan peserta untuk terus berani berkarya. Akan hadir dengan topik yang tentunya amat menarik untuk disimak, keempat klinik pun dapat diikuti oleh semua peserta. Perluas pengetahuan dan pengalamanmu melalui online talkshow interaktif dan berbagai kegiatan seru di Klinik Liliefors 2021.</p>
+    <div class="flex flex-col px-4">
+        <a href="/liliefors" class="bg-white rounded daftar text-center px-4 py-2 mt-4 md:w-1/3 md:mx-auto">DAFTAR KLINIK</a>
+    </div>
     <div class="flex flex-col divide-y divide-white text-white md:divide-none">
         <div class="my-8 flex flex-col items-center md:flex-row md:justify-between md:px-20">
             <div class="flex flex-col py-4 md:p-0 md:mr-8">
-                <embed class="h-40 w-auto my-4" src="/assets/img/pembicara-1.svg">
-                <h4 class="text-base font-normal text-center">ANONIM</h4>
+                <embed class="h-60 w-auto my-4" src="/assets/img/pembicara-1.svg">
+                <h4 class="text-base font-normal text-center -mt-16">ALVI SYAHRIN</h4>
             </div>
             <div>
                 <h3 class="text-lg text-center font-bold mt-6 md:mx-0 md:text-left md:mb-4">PENULISAN</h3>
-                <p class="mt-4 text-white text-justify font-thin">Adipisicing in incididunt esse excepteur culpa proident aliqua sunt. Ipsum id labore in esse deserunt cillum. Occaecat consectetur irure esse consequat enim Lorem anim do fugiat Lorem pariatur.Minim minim proident Lorem do laborum aliqua officia minim amet labore. In tempor laboris ut officia cillum voluptate cillum ex est laboris est laborum mollit qui. Veniam consectetur eu irure ipsum labore nulla est labore nulla id ut. Dolor nostrud exercitation ea non et esse quis.</p>
+                <p class="mt-4 text-white text-justify font-normal">Menulis menjadi sebuah seni dalam merangkai kata dan memadukan kalimat. Saat mampu mengolaborasikan imajinasi dan fakta ke dalam goresan pena, sebuah karya tercipta. Tulisan bukan sekedar rangkaian kata yang hanya untuk dibaca, tapi harus memiliki pesan dan makna sebagai pembuka pikiran pembaca. Sebuah pertanyaan pun muncul, bagaimana agar sebuah karya tulis bisa diterima oleh banyak orang? Klinik Penulisan Liliefors 2021 bersama Alvi Syahrin, penulis buku "Jika Kita Tak Pernah Jatuh Cinta" akan mengupas hal-hal mengenai kepenulisan dan pembangunan kepercayaan diri dalam menulis.</p>
             </div>
         </div>
         <div class="my-8 flex flex-col items-center md:flex-row md:justify-between md:px-20 md:flex-row-reverse">
             <div class="flex flex-col py-4 md:p-0 md:ml-8">
-                <embed class="h-40 w-auto my-4" src="/assets/img/pembicara-1.svg">
-                <h4 class="text-base font-normal text-center">ANONIM</h4>
+                <embed class="h-60 w-auto my-4" src="/assets/img/pembicara-2.svg">
+                <h4 class="text-base font-normal text-center -mt-16">INGGA SUWANDANA</h4>
             </div>
             <div>
                 <h3 class="text-lg text-center font-bold mt-6 md:mx-0 md:text-left md:mb-4">FOTOGRAFI</h3>
-                <p class="mt-4 text-white text-justify font-thin">Adipisicing in incididunt esse excepteur culpa proident aliqua sunt. Ipsum id labore in esse deserunt cillum. Occaecat consectetur irure esse consequat enim Lorem anim do fugiat Lorem pariatur.Minim minim proident Lorem do laborum aliqua officia minim amet labore. In tempor laboris ut officia cillum voluptate cillum ex est laboris est laborum mollit qui. Veniam consectetur eu irure ipsum labore nulla est labore nulla id ut. Dolor nostrud exercitation ea non et esse quis.</p>
+                <p class="mt-4 text-white text-justify font-normal">Selembar foto dapat membekukan waktu, menyimpan memori dan kisah yang kadang tak mampu terungkap dengan kata. Ketika diambil dengan sudut pandang dan komposisi yang tepat, dirangkum dalam gambaran nyata, foto tak lepas dari keseharian hingga peristiwa tak terduga. Satu bingkai mampu mengabadikan peristiwa sesederhana kenangan masa remaja, perjalanan menjelajah nusantara, hingga hari bersejarah negara dan arti suatu bangsa bagi dunia. Bersama Ingga Suwandana, Founder of explore lombok dan Switch On, perkaya wawasanmu akan dunia di balik lensa di Klinik Fotografi Liliefors 2021.</p>
             </div>
         </div>
         <div class="my-8 flex flex-col items-center md:flex-row md:justify-between md:px-20">
             <div class="flex flex-col py-4 md:p-0 md:mr-8">
-                <embed class="h-40 w-auto my-4" src="/assets/img/pembicara-1.svg">
-                <h4 class="text-base font-normal text-center">ANONIM</h4>
+                <embed class="h-60 w-auto my-4" src="/assets/img/pembicara-3.svg">
+                <h4 class="text-base font-normal text-center -mt-16">ENRICO JONATHAN</h4>
             </div>
             <div>
                 <h3 class="text-lg text-center font-bold mt-6 md:mx-0 md:text-left md:mb-4">DESAIN GRAFIS</h3>
-                <p class="mt-4 text-white text-justify font-thin">Adipisicing in incididunt esse excepteur culpa proident aliqua sunt. Ipsum id labore in esse deserunt cillum. Occaecat consectetur irure esse consequat enim Lorem anim do fugiat Lorem pariatur.Minim minim proident Lorem do laborum aliqua officia minim amet labore. In tempor laboris ut officia cillum voluptate cillum ex est laboris est laborum mollit qui. Veniam consectetur eu irure ipsum labore nulla est labore nulla id ut. Dolor nostrud exercitation ea non et esse quis.</p>
+                <p class="mt-4 text-white text-justify font-normal">Keindahan sebuah desain tak luput dari gagasan dan komposisi yang menyusunnya. Namun, fungsionalitas juga diperlukan agar desain tak hanya memanjakan mata, tetapi menjangkau suatu makna dan tujuan dengan mengombinasikan berbagai elemen visual, seperti tipografi, fotografi, dan ilustrasi secara efektif dan efisien. Desain yang baik mampu mengomunikasikan pesan dan menciptakan persepsi tertentu bagi para penikmatnya. Dalam Klinik Desain Grafis Liliefors 2021, perluas pemahaman dan pandanganmu mengenai desain grafis bersama Enrico Jonathan, The Creative Lead of "Kok Bisa?".</p>
             </div>
         </div>
         <div class="my-8 flex flex-col items-center md:flex-row md:justify-between md:px-20 md:flex-row-reverse">
             <div class="flex flex-col py-4 md:p-0 md:ml-8">
-                <embed class="h-40 w-auto my-4" src="/assets/img/pembicara-1.svg">
-                <h4 class="text-base font-normal text-center">ANONIM</h4>
+                <embed class="h-60 w-auto my-4" src="/assets/img/pembicara-4.svg">
+                <h4 class="text-base font-normal text-center -mt-16">NAZHIF UBAIDILLAH</h4>
             </div>
             <div>
-                <h3 class="text-lg text-center font-bold mt-6 md:mx-0 md:text-left md:mb-4">PERSONAL BRANDING</h3>
-                <p class="mt-4 text-white text-justify font-thin">Adipisicing in incididunt esse excepteur culpa proident aliqua sunt. Ipsum id labore in esse deserunt cillum. Occaecat consectetur irure esse consequat enim Lorem anim do fugiat Lorem pariatur.Minim minim proident Lorem do laborum aliqua officia minim amet labore. In tempor laboris ut officia cillum voluptate cillum ex est laboris est laborum mollit qui. Veniam consectetur eu irure ipsum labore nulla est labore nulla id ut. Dolor nostrud exercitation ea non et esse quis.</p>
+                <h3 class="text-lg text-center font-bold mt-6 md:mx-0 md:text-left md:mb-4">VIDEOGRAFI</h3>
+                <p class="mt-4 text-white text-justify font-normal">Videografi adalah seni dalam menciptakan dan memproduksi suatu karya visual berupa video. Dalam produksinya, video memerlukan beragam konsep dan teknik agar tujuannya sebagai media komunikasi dapat diterima dengan baik oleh penonton. Kombinasi visual, narasi, hingga latar suara dan suasana yang diramu dengan tepat dapat menciptakan kisah dan pesan yang kuat untuk penonton. Terlepas dari apapun tema yang diangkat, konten fiksi pun mampu mendekati kenyataan yang kita hadapi di keseharian dalam wujud sebuah video. Nazhif Ubaidillah akan membagikan pengalaman dan pengetahuannya di dunia videografi dalam Klinik Videografi Liliefors 2021.</p>
             </div>
         </div>
-        <a href="#" class="bg-white rounded daftar text-center px-4 py-2 mt-4 md:w-1/3 md:mx-auto">DAFTAR KLINIK</a>
     </div>
 </section>
 
+<?php if(true == false) {?>
 <section class="px-10 py-10" id="galeri">
     <h5 class="text-xl text-center font-black text-white mb-8 mx-auto">GALERI</h5>
     <h3 class="text-base font-bold text-white text-center">Angan dan Rua</h3>

@@ -9,7 +9,7 @@ $errors = $session->getFlashdata('errors');
 </div>
 
 <div class="rounded-sm shadow-lg p-4 bg-white w-full mt-4 lg:w-6/12">
-    <form action="/liliecomp/desain/daftar" method="post" enctype="multipart/form-data">
+    <form action="/liliefors/daftar" method="post">
         <label for="nama_lengkap">Nama Lengkap</label><br>
         <small class="text-red-500"><?= isset($errors['nama']) ? $errors['nama'] : ""; ?></small>
         <input value="<?= old('nama_lengkap') ? old('nama_lengkap') : $session->get('nama'); ?>" class="mb-8 w-full rounded-none border border-black p-1 focus:outline-none" type="text" name="nama_lengkap" id="nama_lengkap" readonly>
@@ -37,10 +37,6 @@ $errors = $session->getFlashdata('errors');
         <small class="text-red-500"><?= isset($errors['sosial_media']) ? $errors['sosial_media'] : ""; ?></small>
         <input value="<?= old('sosial_media'); ?>" class="w-full rounded-none border border-black p-1 focus:outline-none" type="text" name="sosial_media" id="sosial_media">
         <p class="mb-8 text-sm font-thin my-1 text-justify">Contoh: Instagram:@abcxyz</p>
-        <label for="identitas">Tanda Pengenal (.pdf)</label><br>
-        <small class="text-red-500"><?= isset($errors['identitas']) ? $errors['identitas'] : ""; ?><br></small>
-        <input type="file" name="identitas" id="identitas">
-        <p class="mb-8 text-sm font-thin my-1 text-justify">Kartu Pelajar bagi siswa SMA</p>
         <label for="kode_referal">Kode Referal (jika ada)</label><br>
         <small class="text-red-500"><?= isset($errors['kode_referal']) ? $errors['kode_referal'] : ""; ?></small>
         <input class="mb-8 w-full rounded-none border border-black p-1 focus:outline-none" type="text" name="kode_referal" id="kode_referal">

@@ -72,7 +72,9 @@ class Filters extends BaseConfig
 		],
 		'cek_user' => [
 			'before' => [
-				'liliecomp/*'
+				'liliecomp/*',
+				'liliefors',
+				'liliefors/*'
 			]
 		]
 	];

@@ -18,12 +18,8 @@ class Liliefors extends BaseController
     private $title = "Liliefors";
     private $view_path = "liliefors";
     private $kode_lomba = 1;
-    private $jumlah_dibayar_umum = 30000;
+    private $jumlah_dibayar_umum = 25000;
     private $jumlah_dibayar_sma = 25000;
-
-    private $EXT_FILE = "pdf";
-    private $PREFIX = "Identitas_";
-    private $PATH_FILE = "1-iden-%^&";
 
     public function __construct()
     {
@@ -41,8 +37,7 @@ class Liliefors extends BaseController
             'jenjang' => 'required',
             'nama_instansi' => 'permit_empty|min_length[5]',
             'no_wa' => 'required|numeric|min_length[8]',
-            'sosial_media' => 'required|min_length[5]',
-            'identitas' => 'ext_in[identitas,' . $this->EXT_FILE . ']'
+            'sosial_media' => 'required|min_length[5]'
         ], [
             'nama' => [
                 'required' => 'Nama Lengkap harus diisi',
@@ -108,7 +103,6 @@ class Liliefors extends BaseController
         $sosial_media = $this->request->getPost('sosial_media');
         $kode_referal = $this->request->getPost('kode_referal');
         $jenjang = $this->request->getPost('jenjang');
-        $identitas = $this->request->getFile('identitas');
 
         $test = [
             'nama' => $nama_lengkap,
@@ -122,21 +116,12 @@ class Liliefors extends BaseController
 
         $users = $test;
 
-        if ($identitas->getSize() > 0 && $identitas->getTempName() != "") {
-            $test['identitas'] = $identitas;
-        }
-
         if ($this->validation->run($test)) {
             $peserta = [
                 'lomba' => $this->kode_lomba,
                 'id_peserta' => $this->session->get('id'),
                 'jumlah_dibayar' => $jenjang == 1 ? $this->jumlah_dibayar_umum : $this->jumlah_dibayar_sma
             ];
-
-            if ($identitas->getSize() > 0 && $identitas->getTempName() != "") {
-                $nama_file = $this->PREFIX . $this->session->get('nama') . "." . $this->EXT_FILE;
-                $identitas->move(ROOTPATH . "public/lie%^&L^^/" . $this->PATH_FILE, $nama_file, true);
-            }
 
             if (strpos($email, "@stis.ac.id")) {
                 $this->m_users->update_data($this->session->get('id'), $users);
@@ -153,10 +138,10 @@ class Liliefors extends BaseController
 
             $this->m_peserta->tambah_peserta($peserta);
 
-            return redirect()->to(base_url('liliecomp/liliefors'));
+            return redirect()->to(base_url('liliefors'));
         } else {
             $this->session->setFlashdata('errors', $this->validation->getErrors());
-            return redirect()->to(base_url('liliecomp/liliefors'))->withInput();
+            return redirect()->to(base_url('liliefors'))->withInput();
         }
     }
 }
