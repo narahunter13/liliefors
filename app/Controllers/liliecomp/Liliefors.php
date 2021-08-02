@@ -74,7 +74,7 @@ class Liliefors extends BaseController
         $data['terbayar'] = $this->m_peserta->get_status_pembayaran($this->session->get('id'), $this->kode_lomba);
         $data['user'] = $this->m_users->find_email($this->session->get('id'));
         $data['terdaftar'] = $this->m_peserta->cek_daftar($this->session->get('id'), $this->kode_lomba);
-        $data['title'] = 'Liliecomp | ' . $this->title;
+        $data['title'] = 'Liliefors | ' . $this->title;
         return view('liliecomp/' . $this->view_path, $data);
     }
 

@@ -91,7 +91,7 @@
             </g>
         </svg>
         <div class="border border-white mx-2 h-10 my-auto"></div>
-        <a href="<?= base_url(); ?>" class="title text-lg text-white text-center flex flex-col justify-center">L I L I E C O M P</a>
+        <a href="<?= base_url(); ?>" class="title text-lg text-white text-center flex flex-col justify-center">L I L I E F O R S</a>
     </nav>
 
     <section class="flex flex-col items-center p-4">
@@ -100,11 +100,11 @@
         <?php } else { ?>
             <div class="flex flex-col justify-center items-center w-full px-4 md:h-screen md:w-6/12">
                 <?php if ($terbayar['status_pembayaran'] == 1) { ?>
-                    <p class="text-xl font-italic text-white">Anda telah mendaftar lomba ini. Silahkan menuju <a href="<?= base_url('user/pengumuman'); ?>" class="underline">dashboard</a></p>
+                    <p class="text-xl font-italic text-white">SELAMAT! Anda telah mendaftar. Silahkan menuju <a href="<?= base_url('user/pengumuman'); ?>" class="underline">dashboard</a></p>
                     <div class="mt-8 text-base text-center text-white">*Catatan: Apabila terdapat kesalahan dalam pengisian data diri, silahkan melapor ke panitia melalui:</div>
                     <div class="text-base text-center text-white">Farah : 0853-3529-8757</div>
                 <?php } else { ?>
-                    <p class="text-xl font-italic text-white">Anda telah mendaftar lomba ini. Silahkan melakukan pembayaran sebesar <b class="text-center">Rp. <?= $terbayar['jumlah_dibayar'] ?></b> ke salah satu media pembayaran berikut:</p>
+                    <p class="text-xl font-italic text-white">SELAMAT! Anda telah mendaftar. Silahkan melakukan pembayaran sebesar <b class="text-center">Rp. <?= $terbayar['jumlah_dibayar'] ?></b> ke salah satu media pembayaran berikut:</p>
                     <ul class="text-xl text-white mt-4 list-disc">
                         <li>BRI: 613001017517530 (Alya Faradila)</li>
                         <li>GOPAY: 081385699804 (Alya Faradila)</li>
