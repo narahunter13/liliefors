@@ -36,7 +36,7 @@ class Liliefors extends BaseController
             'asal_daerah' => 'required|min_length[5]',
             'jenjang' => 'required',
             'nama_instansi' => 'permit_empty|min_length[5]',
-            'no_wa' => 'required|numeric|min_length[8]',
+            // 'no_wa' => 'required|numeric|min_length[8]',
             'sosial_media' => 'required|min_length[5]'
         ], [
             'nama' => [
@@ -54,11 +54,11 @@ class Liliefors extends BaseController
             'nama_instansi' => [
                 'min_length' => 'Isilah Nama Instansi secara lengkap'
             ],
-            'no_wa' => [
-                'required' => 'Nomor WA yang Aktif harus diisi',
-                'numeric' => 'Nomor WA yang Aktif tidak valid',
-                'min_length' => 'Isilah Nomor WA secara lengkap'
-            ],
+            // 'no_wa' => [
+            //     'required' => 'Nomor WA yang Aktif harus diisi',
+            //     'numeric' => 'Nomor WA yang Aktif tidak valid',
+            //     'min_length' => 'Isilah Nomor WA secara lengkap'
+            // ],
             'sosial_media' => [
                 'required' => 'Sosial Media yang aktif harus diisi',
                 'min_length' => 'Isilah Sosial Media dengan benar'
@@ -99,7 +99,7 @@ class Liliefors extends BaseController
         $email = $this->request->getPost('email');
         $asal_daerah = $this->request->getPost('asal_daerah');
         $instansi = $this->request->getPost('instansi');
-        $no_wa = $this->request->getPost('nomor_wa');
+        // $no_wa = $this->request->getPost('nomor_wa');
         $sosial_media = $this->request->getPost('sosial_media');
         $kode_referal = $this->request->getPost('kode_referal');
         $jenjang = $this->request->getPost('jenjang');
@@ -110,7 +110,7 @@ class Liliefors extends BaseController
             'asal_daerah' => $asal_daerah,
             'jenjang' => $jenjang,
             'nama_instansi' => $instansi,
-            'no_wa' => $no_wa,
+            // 'no_wa' => $no_wa,
             'sosial_media' => $sosial_media
         ];
 

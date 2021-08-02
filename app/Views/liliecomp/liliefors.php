@@ -30,9 +30,6 @@ $errors = $session->getFlashdata('errors');
         <small class="text-red-500"><?= isset($errors['instansi']) ? $errors['instansi'] : ""; ?></small>
         <input value="<?= old('instansi'); ?>" class="w-full rounded-none border border-black p-1 focus:outline-none" type="text" name="instansi" id="instansi">
         <p class="mb-8 text-sm font-thin my-1 text-justify">Untuk umum yang bukan mahasiswa boleh dikosongkan</p>
-        <label for="nomor_wa">No. WA yang Aktif</label><br>
-        <small class="text-red-500"><?= isset($errors['no_wa']) ? $errors['no_wa'] : ""; ?></small>
-        <input value="<?= old('nomor_wa'); ?>" class="mb-8 w-full rounded-none border border-black p-1 focus:outline-none" type="text" name="nomor_wa" id="nomor_wa">
         <label for="sosial_media">Sosial Media</label><br>
         <small class="text-red-500"><?= isset($errors['sosial_media']) ? $errors['sosial_media'] : ""; ?></small>
         <input value="<?= old('sosial_media'); ?>" class="w-full rounded-none border border-black p-1 focus:outline-none" type="text" name="sosial_media" id="sosial_media">
