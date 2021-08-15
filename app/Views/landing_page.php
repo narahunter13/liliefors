@@ -172,15 +172,14 @@
     </div>
 </section>
 
-<?php if(true == false) {?>
 <section class="px-10 py-10" id="galeri">
     <h5 class="text-xl text-center font-black text-white mb-8 mx-auto">GALERI</h5>
-    <h3 class="text-base font-bold text-white text-center">Angan dan Rua</h3>
+    <h3 class="text-base font-bold text-white text-center">Teaser Liliefors 2021</h3>
     <div class="px-4 mt-2 relative" style="padding-top: 56.25%">
-        <iframe class="absolute inset-0 w-full h-full" src="https://www.youtube.com/embed/ya2b97iXlHk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="absolute inset-0 w-full h-full" src="https://www.youtube.com/embed/-QwbovNzKvE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 </section>
-<?php }?>
+
 <script>
     var burger_landing = document.getElementById('burger-landing');
     var burger_background_landing = document.getElementById('burger-background-landing');

@@ -101,9 +101,7 @@ helper('html');
         <div class="link md:text-white md:flex md:justify-center md:items-center md:px-4">
             <a class="md:mx-4 sub-link" href="#kompetisi">LILIECOMP</a>
             <a class="md:mx-4 sub-link" href="#klinik">SEMINAR</a>
-            <?php if(true==false) {?>
             <a class="md:mx-4 sub-link" href="#galeri">GALERI</a>
-            <?php }?>
             <?php if (!$sess->get('isLoggedIn')) { ?>
                 <a class="md:mx-4 sub-link" href="/registrasi">REGISTRASI</a>
                 <a class="md:mx-4 masuk-button md:rounded-md md:py-2 md:px-4 md:font-medium" href="/masuk">MASUK</a>
@@ -206,9 +204,7 @@ helper('html');
         <div class="flex flex-col items-center">
             <a class="text-white text-base font-normal rounded-lg py-4 w-10/12 mx-4 my-2" href="#kompetisi">KOMPETISI</a>
         	<a class="text-white text-base font-normal rounded-lg py-4 w-10/12 mx-4 my-2" href="#klinik">SEMINAR</a>
-            <?php if(true==false) {?>
             <a class="text-white text-base font-normal rounded-lg py-4 w-10/12 mx-4 my-2" href="#galeri">GALERI</a>
-        	<?php }?>
             <?php if (!$sess->get('isLoggedIn')) { ?>
                 <a class="text-white text-base font-normal rounded-lg py-4 w-10/12 mx-4 my-2" href="/masuk">MASUK</a>
                 <?php } else { ?>
