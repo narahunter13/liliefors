@@ -71,6 +71,7 @@ class ModelPeserta extends Model
 	{
 		return $this->db->table('peserta_lomba')
 						->where('lomba', $lomba)
+						->where('status_pembayaran', 1)
 						->countAllResults();
 	}
 
