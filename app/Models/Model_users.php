@@ -39,4 +39,12 @@ class Model_users extends Model
 		return $this->db->table('users')
 						->update($data, ['id' => $id]);
 	}
+
+	public function get_peserta_per_jenjang($jenjang)
+	{
+		return $this->db->table('users')
+						->where('jenjang', $jenjang)
+						->where('liliefors', 1)
+						->countAllResults();
+	}
 }

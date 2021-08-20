@@ -66,4 +66,17 @@ class ModelPeserta extends Model
 		return $this->db->table('peserta_lomba')
 						->insert($data);
 	}
+
+	public function get_peserta_per_lomba($lomba)
+	{
+		return $this->db->table('peserta_lomba')
+						->where('lomba', $lomba)
+						->countAllResults();
+	}
+
+	public function get_peserta_per_jenjang($jenjang)
+	{
+		$sql = "SELECT COUNT(*) as hasil FROM peserta_lomba JOIN users ON peserta_lomba.id_peserta = users.id WHERE users.jenjang = " . $jenjang;
+		return $this->db->query($sql)->getResultArray();
+	}
 }

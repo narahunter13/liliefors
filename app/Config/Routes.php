@@ -46,7 +46,7 @@ $routes->get('/registrasi', 'Registrasi::index');
 $routes->post('/registrasi/create', 'Registrasi::create');
 
 // Pengumuman
-$routes->get('admin', 'Admin\Pengumuman::index', ['filter' => 'cek_admin']);
+$routes->get('admin', 'Admin\Ringkasan::index', ['filter' => 'cek_admin']);
 $routes->get('admin/pengumuman', 'Admin\Pengumuman::index', ['filter' => 'cek_admin']);
 $routes->get('admin/pengumuman/new', 'Admin\Pengumuman::new', ['filter' => 'cek_admin']);
 $routes->post('admin/pengumuman/post', 'Admin\Pengumuman::post', ['filter' => 'cek_admin']);

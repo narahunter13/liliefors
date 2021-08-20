@@ -142,6 +142,13 @@ $session = \Config\Services::session();
             </div>
 
             <!-- Nav Item - Dashboard -->
+            <li class="nav-item<?= $active == "Ringkasan" ? ' active' : "" ?>">
+                <a class="nav-link" href="/admin">
+                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <span>Ringkasan</span></a>
+            </li>
+
+            <!-- Nav Item - Dashboard -->
             <li class="nav-item<?= $active == "Pengumuman" ? ' active' : "" ?>">
                 <a class="nav-link" href="/admin/pengumuman">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
