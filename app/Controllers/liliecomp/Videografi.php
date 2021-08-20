@@ -23,7 +23,7 @@ class Videografi extends BaseController
     private $jumlah_dibayar_umum = 35000;
     private $jumlah_dibayar_sma = 30000;
 
-    private $EXT_FILE = "pdf";
+    private $EXT_FILE = "pdf,PDF";
     private $PREFIX = "Identitas_";
     private $PATH_FILE = "1-iden-%^&";
 
@@ -44,8 +44,8 @@ class Videografi extends BaseController
             'jenjang' => 'required',
             'nama_instansi' => 'permit_empty|min_length[5]',
             'no_wa' => 'required|numeric|min_length[8]',
-            'sosial_media' => 'required|min_length[5]',
-            'identitas' => 'ext_in[identitas,' . $this->EXT_FILE . ']'
+            'sosial_media' => 'required|min_length[5]'
+            // 'identitas' => 'ext_in[identitas,' . $this->EXT_FILE . ']'
         ], [
             'nama' => [
                 'required' => 'Nama Lengkap harus diisi',
@@ -70,10 +70,10 @@ class Videografi extends BaseController
             'sosial_media' => [
                 'required' => 'Sosial Media yang aktif harus diisi',
                 'min_length' => 'Isilah Sosial Media dengan benar'
-            ],
-            'identitas' => [
-                'ext_in' => 'Format file tidak sesuai'
             ]
+            // 'identitas' => [
+            //     'ext_in' => 'Format file tidak sesuai'
+            // ]
         ]);
     }
 
