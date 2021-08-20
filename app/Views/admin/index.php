@@ -111,7 +111,7 @@
                             <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
                                 SMA</div>
                             <div class="h5 mb-0 font-weight-bold text-gray-800">
-                                <?= $sma; ?>
+                                <?= $sma['hasil']; ?>
                             </div>
                         </div>
                         <div class="col-auto">
@@ -130,7 +130,7 @@
                             <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
                                 Umum</div>
                             <div class="h5 mb-0 font-weight-bold text-gray-800">
-                                <?= $umum; ?>
+                                <?= $umum['hasil']; ?>
                             </div>
                         </div>
                         <div class="col-auto">

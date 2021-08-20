@@ -26,8 +26,8 @@ class Ringkasan extends BaseController {
         $data['fotografi'] = $this->m_peserta->get_peserta_per_lomba(3);
         $data['desain'] = $this->m_peserta->get_peserta_per_lomba(4);
         $data['videografi'] = $this->m_peserta->get_peserta_per_lomba(5);
-        $data['umum'] = $this->m_users->get_peserta_per_jenjang(1);
-        $data['sma'] = $this->m_users->get_peserta_per_jenjang(2);
+        $data['umum'] = $this->m_peserta->get_peserta_per_jenjang(1)[0];
+        $data['sma'] = $this->m_peserta->get_peserta_per_jenjang(2)[0];
         $data['title'] = 'Ringkasan';
 		return view('admin/index', $data);
     }

@@ -77,7 +77,7 @@ class ModelPeserta extends Model
 
 	public function get_peserta_per_jenjang($jenjang)
 	{
-		$sql = "SELECT COUNT(*) as hasil FROM peserta_lomba JOIN users ON peserta_lomba.id_peserta = users.id WHERE users.jenjang = " . $jenjang;
+		$sql = "SELECT COUNT(*) as hasil FROM peserta_lomba JOIN users ON peserta_lomba.id_peserta = users.id WHERE status_pembayaran = 1 AND users.jenjang = " . $jenjang;
 		return $this->db->query($sql)->getResultArray();
 	}
 }
