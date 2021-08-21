@@ -21,7 +21,7 @@ class Videografi extends BaseController
     private $view_path = "videografi";
     private $kode_lomba = 5;
     private $jumlah_dibayar_umum = 35000;
-    private $jumlah_dibayar_sma = 30000;
+    private $jumlah_dibayar_sma = 35000;
 
     private $EXT_FILE = "pdf,PDF";
     private $PREFIX = "Identitas_";

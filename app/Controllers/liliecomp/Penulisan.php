@@ -19,7 +19,7 @@ class Penulisan extends BaseController
     private $view_path = "penulisan";
     private $kode_lomba = 2;
     private $jumlah_dibayar_umum = 30000;
-    private $jumlah_dibayar_sma = 25000;
+    private $jumlah_dibayar_sma = 30000;
 
     private $EXT_FILE = "pdf";
     private $PREFIX = "Identitas_";

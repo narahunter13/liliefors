@@ -19,7 +19,7 @@ class Desain extends BaseController
     private $view_path = "desain";
     private $kode_lomba = 4;
     private $jumlah_dibayar_umum = 30000;
-    private $jumlah_dibayar_sma = 25000;
+    private $jumlah_dibayar_sma = 30000;
 
     private $EXT_FILE = "pdf";
     private $PREFIX = "Identitas_";
