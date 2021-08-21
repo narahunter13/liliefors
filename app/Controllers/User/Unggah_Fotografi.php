@@ -10,7 +10,7 @@ class Unggah_Fotografi extends BaseController {
     private $session;
     private $active = "fotografi";
     private $m_peserta;
-    private $EXT_FILE = "zip";
+    private $EXT_FILE = "zip,rar,pdf";
     private $PATH_FILE = "3-%^&";
     private $PREFIX = "Fotografi_";
 
@@ -38,8 +38,8 @@ class Unggah_Fotografi extends BaseController {
             $file = $this->request->getFile('karya');
             $id = $this->session->get('id');
 
-            $nama_file = $this->PREFIX . $this->session->get('nama') . "." . $this->EXT_FILE;
-            $file->move(ROOTPATH . "public/lie%^&L^^/" . $this->PATH_FILE, $nama_file, true);
+            $nama_file = $this->PREFIX . $this->session->get('nama') . "." . $file->getExtension();
+            $file->move(WRITEPATH . "lie%^&L^^/" . $this->PATH_FILE, $nama_file, true);
 
             if($this->m_peserta->ubah_status_pengumpulan($id, 3)) {
                 $this->m_peserta->ubah_status_pengumpulan($id, 3);
