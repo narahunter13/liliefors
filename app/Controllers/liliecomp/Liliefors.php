@@ -18,8 +18,8 @@ class Liliefors extends BaseController
     private $title = "Liliefors";
     private $view_path = "liliefors";
     private $kode_lomba = 1;
-    private $jumlah_dibayar_umum = 25000;
-    private $jumlah_dibayar_sma = 25000;
+    private $jumlah_dibayar_umum = 30000;
+    private $jumlah_dibayar_sma = 30000;
 
     public function __construct()
     {
