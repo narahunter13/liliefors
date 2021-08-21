@@ -94,6 +94,7 @@
     <h2 class="text-center text-lg text-lilie-primary font-bold">KOMPETISI</h2>
     <div class="grid grid-cols-12">
         <a target="_blank" href="https://s.stis.ac.id/HandBookLiliecomp2021" class="card-button col-span-12 flex justify-center my-4 md:col-start-5 md:col-end-9 lg:col-start-6 lg:col-end-8">UNDUH HANDBOOK</a>
+        <p class="leading-relaxed col-span-12 text-justify text-lilie-primary text-sm my-8"><b><i>Liliefors Competition</i></b> merupakan ajang perlombaan tingkat nasional yang meliputi bidang kepenulisan (cerita pendek), fotografi (foto), desain grafis (desain poster), dan videografi (video kreatif). Kompetisi dengan tema <i>"Be Confident and Impact Others"</i> ini bertujuan agar para peserta berani berkarya dalam menuangkan ide dan kreativitasnya. Selain itu, ajang yang terbuka untuk SMA/sederajat dan umum ini bermaksud untuk menemukan karya terbaik yang bermanfaat bagi banyak orang. Karya-karya yang disalurkan akan diseleksi dan dipilih menjadi juara satu, dua, tiga, dan favorit untuk setiap cabang lomba berdasarkan syarat dan ketentuan yang berlaku. Secara otomatis, para peserta Liliecomp akan terdaftar juga dalam kegiatan Liliefors.</p>
     </div>
     <div class="grid grid-cols-12 gap-y-4 md:gap-4">
         <div class="card">
@@ -143,7 +144,6 @@
     <h2 class="text-center text-lg text-lilie-primary font-bold mb-4">SEMINAR</h2>
     <div class="grid grid-cols-12 my-4">
         <a href="/liliefors" class="card-button col-span-12 flex justify-center md:col-start-5 md:col-end-9 lg:col-start-6 lg:col-end-8">DAFTAR SEMINAR!</a>
-        <p class="leading-relaxed col-span-12 text-justify text-lilie-primary text-sm my-8"><b><i>Liliefors Competition</i></b> merupakan ajang perlombaan tingkat nasional yang meliputi bidang kepenulisan (cerita pendek), fotografi (foto), desain grafis (desain poster), dan videografi (video kreatif). Kompetisi dengan tema <i>"Be Confident and Impact Others"</i> ini bertujuan agar para peserta berani berkarya dalam menuangkan ide dan kreativitasnya. Selain itu, ajang yang terbuka untuk SMA/sederajat dan umum ini bermaksud untuk menemukan karya terbaik yang bermanfaat bagi banyak orang. Karya-karya yang disalurkan akan diseleksi dan dipilih menjadi juara satu, dua, tiga, dan favorit untuk setiap cabang lomba berdasarkan syarat dan ketentuan yang berlaku. Secara otomatis, para peserta Liliecomp akan terdaftar juga dalam kegiatan Liliefors.</p>
     </div>
     <div class="grid grid-cols-12 gap-y-4 md:gap-4">
         <div class="relative rounded-sm col-span-12 overflow-hidden bg-white shadow-sm md:col-span-6 lg:col-span-3">
