@@ -1,12 +1,13 @@
 module.exports = {
-  // purge: {
-  //   enabled: true,
-  //   content: [
-  //     './app/Views/**/*.php',
-  //     './app/Views/*.php',
-  //   ],
-  // },
-  purge: [],
+  purge: {
+    enabled: true,
+    content: [
+      './app/Views/klinik/*.php',
+      './app/Views/liliecomp/*.php',
+      './app/Views/*.php',
+    ],
+  },
+  // purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
