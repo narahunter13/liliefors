@@ -30,9 +30,10 @@ class Unggah_Fotografi extends BaseController {
 
     public function send()
     {
-        $validate = $this->validate([
-            'karya' => 'uploaded[karya]|ext_in[karya,' . $this->EXT_FILE . ']'
-        ]);
+        $validate = true;
+        // $validate = $this->validate([
+        //     'karya' => 'uploaded[karya]|ext_in[karya,' . $this->EXT_FILE . ']'
+        // ]);
 
         if($validate) {
             $file = $this->request->getFile('karya');
