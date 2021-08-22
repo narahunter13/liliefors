@@ -42,7 +42,7 @@ class Fotografi extends BaseController
             'nama_instansi' => 'permit_empty|min_length[5]',
             'no_wa' => 'required|numeric|min_length[8]',
             'sosial_media' => 'required|min_length[5]',
-            'identitas' => 'ext_in[identitas,' . $this->EXT_FILE . ']'
+            // 'identitas' => 'ext_in[identitas,' . $this->EXT_FILE . ']'
         ], [
             'nama' => [
                 'required' => 'Nama Lengkap harus diisi',
@@ -68,9 +68,9 @@ class Fotografi extends BaseController
                 'required' => 'Sosial Media yang aktif harus diisi',
                 'min_length' => 'Isilah Sosial Media dengan benar'
             ],
-            'identitas' => [
-                'ext_in' => 'Format file tidak sesuai'
-            ]
+            // 'identitas' => [
+            //     'ext_in' => 'Format file tidak sesuai'
+            // ]
         ]);
     }
 
