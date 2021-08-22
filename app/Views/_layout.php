@@ -124,7 +124,7 @@ helper('html');
         </div>
     </nav>
 
-    <div class="mt-8 px-6 sm:px-12">
+    <div x-data="{open: true}" class="mt-8 px-6 sm:px-12">
         <?= $this->renderSection('content') ?>
     </div>
 
@@ -164,7 +164,7 @@ helper('html');
         </div>
     </footer>
 
-    <!-- <script src="/assets/js/main.js"></script> -->
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </body>
 
 </html>

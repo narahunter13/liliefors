@@ -1,6 +1,19 @@
 <?= $this->extend('_layout') ?>
 
 <?= $this->section('content') ?>
+<div x-show="open" class="z-50 overlay h-screen w-screen fixed bg-black opacity-40 inset-0"></div>
+<div x-show="open" class="z-50 modal p-4 h-screen w-screen fixed inset-0 text-lilie-primary overflow-y-auto">
+    <div class="modal-body w-full rounded-sm bg-lilie-bg flex flex-col sm:w-3/4 sm:mx-auto lg:w-3/5">
+        <div class="p-4 flex justify-between items-center border-b border-lilie-primary flex-initial">
+            <p class="text-base-font-bold">Pengumuman</p>
+            <span @click="open = false" class="font-extrabold text-lg cursor-pointer">&times;</span>
+        </div>
+        <div class="p-4 flex-grow">
+            <img class="w-full h-auto" src="/assets/img/poster.jpg" alt="Poster">
+        </div>
+    </div>
+</div>
+
 <section class="grid grid-cols-12 text-lilie-primary">
     <h1 class="col-span-12 text-center font-extrabold text-xl lg:text-2xl">LILIEFORS 2021</h1>
     <h2 class="col-span-12 text-center italic lg:text-xl">"Be Confident and Impact Others"</h2>
