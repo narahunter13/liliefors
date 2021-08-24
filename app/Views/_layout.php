@@ -113,7 +113,7 @@ helper('html');
                 <a href="/masuk" class="bg-lilie-warning shadow text-lilie-primary rounded-sm p-1 px-4 font-bold text-sm flex items-center">MASUK</a>
             <?php } else { ?>
                 <a href="<?= $sess->get('role') == 1 ? '/admin/pengumuman' : '/user/pengumuman'; ?>" class="bg-lilie-warning shadow text-lilie-primary rounded-sm p-1 px-4 font-bold text-sm flex items-center">
-                    <svg class="h-1/2 w-auto mr-4" id="a34a9910-4cfe-43a0-988c-da329b1180ae" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 100">
+                    <svg class="h-4 w-auto mr-4" id="a34a9910-4cfe-43a0-988c-da329b1180ae" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 100">
                         <title>User</title>
                         <path d="M43.75.36A26.27,26.27,0,1,0,70,26.63,26.29,26.29,0,0,0,43.75.36Z" style="fill:#193248" />
                         <path d="M76.44,70.07A37.45,37.45,0,0,0,49.59,58.74H37.91A37.43,37.43,0,0,0,11.06,70.07,38.28,38.28,0,0,0,0,97.08,2.92,2.92,0,0,0,2.88,100H84.62a2.92,2.92,0,0,0,2.92-2.92A38.32,38.32,0,0,0,76.44,70.07Z" style="fill:#193248" />
