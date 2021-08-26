@@ -79,17 +79,8 @@ $routes->get('/user/linimasa', 'User\Linimasa::index', ['filter' => 'cek_user'])
 
 // Liliecomp
 $routes->addRedirect('/liliecomp', '/#kompetisi');
-$routes->get('/liliecomp/desain', 'liliecomp\Desain::index');
-$routes->post('/liliecomp/desain/daftar', 'liliecomp\Desain::daftar');
-$routes->get('/liliecomp/fotografi', 'liliecomp\Fotografi::index');
-$routes->post('/liliecomp/fotografi/daftar', 'liliecomp\Fotografi::daftar');
-$routes->get('/liliecomp/penulisan', 'liliecomp\Penulisan::index');
-$routes->post('/liliecomp/penulisan/daftar', 'liliecomp\Penulisan::daftar');
-$routes->get('/liliecomp/videografi', 'liliecomp\Videografi::index');
-$routes->post('/liliecomp/videografi/daftar', 'liliecomp\Videografi::daftar');
 $routes->get('/liliefors', 'liliecomp\Liliefors::index');
 $routes->post('/liliefors/daftar', 'liliecomp\Liliefors::daftar');
-$routes->get('/liliecomp/videografi', 'liliecomp\Videografi::index');
 
 // API Referal
 $routes->resource('api/referal', ['controller' => 'Api\Referal']);

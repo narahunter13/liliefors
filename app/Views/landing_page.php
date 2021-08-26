@@ -116,7 +116,7 @@
                 <h4 class="card-title">Desain Grafis</h4>
                 <p class="leading-relaxed">Manusia dapat menangkap suatu nilai atau pesan tak hanya melalui kata, tetapi juga rupa. Rangkaian bentuk dan warna yang harmonis dengan sedikit sentuhan tipografi yang apik dapat menjadi sarana penyampai pesan untuk sesama. Dengan tema <i>"I Am Beyond Myself"</i>, sampaikan pesanmu melalui desain poster yang sarat makna.</p>
                 <div class="flex justify-end mt-4">
-                    <a href="/liliecomp/desain" class="card-button">Daftar!</a>
+                    <button class="card-button">Ditutup</button>
                 </div>
             </div>
         </div>
@@ -126,7 +126,7 @@
                 <h4 class="card-title">Fotografi</h4>
                 <p class="leading-relaxed">Keadaan itu dinamis dan terikat waktu. Foto mengubahnya menjadi statis di satu waktu tertentu. Foto adalah media berbentuk dua dimensi yang menangkap momen tanpa suara dengan pesan dan sejarah. Sejalan dengan tema <i>"Inhale Confidence, Exhale Diffidence"</i>, tangkap dan abadikan momen dalam suatu foto nan inspiratif.</p>
                 <div class="flex justify-end mt-4">
-                    <a href="/liliecomp/fotografi" class="card-button">Daftar!</a>
+                    <button class="card-button">Ditutup</button>
                 </div>
             </div>
         </div>
@@ -136,7 +136,7 @@
                 <h4 class="card-title">Penulisan</h4>
                 <p class="leading-relaxed">Nama manusia dapat abadi dan dikenang melalui karya, tak terkecuali karya tulis. Cerpen hanyalah satu di antara beragam bentuk karya tulis. Cerpen menjadi media untuk meninggalkan tanda melalui cerita fantasi maupun pasti. Bertemakan <i>"Break My Fear, Build My Confidence"</i>, ciptakan cerpen yang menarik dan menginspirasi.</p>
                 <div class="flex justify-end mt-4">
-                    <a href="/liliecomp/penulisan" class="card-button">Daftar!</a>
+                    <button class="card-button">Ditutup</button>
                 </div>
             </div>
         </div>
@@ -146,7 +146,7 @@
                 <h4 class="card-title">Videografi</h4>
                 <p class="leading-relaxed">Paduan antara visual dan audio dalam suatu jalin cerita dapat menggugah perasaan para pemirsanya. Menyisipkan nilai-nilai baik dalam suatu karya video barangkali dapat menjadikan nilai-nilai tersebut lebih mudah dipahami. Dengan tema <i>"Self Confidence"</i>, tebarkan rasa percaya diri melalui karya video.</p>
                 <div class="flex-1 w-full flex justify-end mt-4">
-                    <a href="/liliecomp/videografi" class="card-button">Daftar!</a>
+                    <button class="card-button">Ditutup</button>
                 </div>
             </div>
         </div>

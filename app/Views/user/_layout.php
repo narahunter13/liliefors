@@ -156,7 +156,7 @@ $session = \Config\Services::session();
             </li>
             <?php }?>
 
-            <?php if ($session->get('penulisan') == 1) { ?>
+            <?php if ((true == false) && $session->get('penulisan') == 1) { ?>
                 <li class="nav-item<?= $active == 'penulisan' ? ' active' : ''; ?>">
                     <a class="nav-link" href="/user/unggah-penulisan">
                         <i class="fas fa-fw fa-chart-area"></i>
@@ -164,7 +164,7 @@ $session = \Config\Services::session();
                 </li>
             <?php } ?>
 
-            <?php if ($session->get('fotografi') == 1) { ?>
+            <?php if ((true == false) && $session->get('fotografi') == 1) { ?>
                 <li class="nav-item<?= $active == 'fotografi' ? ' active' : ''; ?>">
                     <a class="nav-link" href="/user/unggah-fotografi">
                         <i class="fas fa-fw fa-chart-area"></i>
@@ -172,7 +172,7 @@ $session = \Config\Services::session();
                 </li>
             <?php } ?>
 
-            <?php if ($session->get('desain') == 1) { ?>
+            <?php if ((true == false) && $session->get('desain') == 1) { ?>
                 <li class="nav-item<?= $active == 'desain' ? ' active' : ''; ?>">
                     <a class="nav-link" href="/user/unggah-desain">
                         <i class="fas fa-fw fa-chart-area"></i>
@@ -180,7 +180,7 @@ $session = \Config\Services::session();
                 </li>
             <?php } ?>
 
-            <?php if ($session->get('videografi') == 1) { ?>
+            <?php if ((true == false) && $session->get('videografi') == 1) { ?>
                 <li class="nav-item<?= $active == 'videografi' ? ' active' : ''; ?>">
                     <a class="nav-link" href="/user/unggah-videografi">
                         <i class="fas fa-fw fa-chart-area"></i>
