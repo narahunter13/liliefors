@@ -106,7 +106,6 @@
 <section class="mt-16" id="kompetisi">
     <h2 class="text-center text-lg text-lilie-primary font-bold">KOMPETISI</h2>
     <div class="grid grid-cols-12">
-        <a target="_blank" href="https://s.stis.ac.id/HandBookLiliecomp2021" class="card-button col-span-12 flex justify-center my-4 md:col-start-5 md:col-end-9 lg:col-start-6 lg:col-end-8">UNDUH HANDBOOK</a>
         <p class="leading-relaxed col-span-12 text-justify text-lilie-primary text-sm my-8"><b><i>Liliefors Competition</i></b> merupakan ajang perlombaan tingkat nasional yang meliputi bidang kepenulisan (cerita pendek), fotografi (foto), desain grafis (desain poster), dan videografi (video kreatif). Kompetisi dengan tema <i>"Be Confident and Impact Others"</i> ini bertujuan agar para peserta berani berkarya dalam menuangkan ide dan kreativitasnya. Selain itu, ajang yang terbuka untuk SMA/sederajat dan umum ini bermaksud untuk menemukan karya terbaik yang bermanfaat bagi banyak orang. Karya-karya yang disalurkan akan diseleksi dan dipilih menjadi juara satu, dua, tiga, dan favorit untuk setiap cabang lomba berdasarkan syarat dan ketentuan yang berlaku. Secara otomatis, para peserta Liliecomp akan terdaftar juga dalam kegiatan Liliefors.</p>
     </div>
     <div class="grid grid-cols-12 gap-y-4 md:gap-4">
@@ -116,7 +115,7 @@
                 <h4 class="card-title">Desain Grafis</h4>
                 <p class="leading-relaxed">Manusia dapat menangkap suatu nilai atau pesan tak hanya melalui kata, tetapi juga rupa. Rangkaian bentuk dan warna yang harmonis dengan sedikit sentuhan tipografi yang apik dapat menjadi sarana penyampai pesan untuk sesama. Dengan tema <i>"I Am Beyond Myself"</i>, sampaikan pesanmu melalui desain poster yang sarat makna.</p>
                 <div class="flex justify-end mt-4">
-                    <button class="card-button">Ditutup</button>
+                    <button class="card-button bg-gray-300">Ditutup</button>
                 </div>
             </div>
         </div>
@@ -126,7 +125,7 @@
                 <h4 class="card-title">Fotografi</h4>
                 <p class="leading-relaxed">Keadaan itu dinamis dan terikat waktu. Foto mengubahnya menjadi statis di satu waktu tertentu. Foto adalah media berbentuk dua dimensi yang menangkap momen tanpa suara dengan pesan dan sejarah. Sejalan dengan tema <i>"Inhale Confidence, Exhale Diffidence"</i>, tangkap dan abadikan momen dalam suatu foto nan inspiratif.</p>
                 <div class="flex justify-end mt-4">
-                    <button class="card-button">Ditutup</button>
+                    <button class="card-button bg-gray-300">Ditutup</button>
                 </div>
             </div>
         </div>
@@ -136,7 +135,7 @@
                 <h4 class="card-title">Penulisan</h4>
                 <p class="leading-relaxed">Nama manusia dapat abadi dan dikenang melalui karya, tak terkecuali karya tulis. Cerpen hanyalah satu di antara beragam bentuk karya tulis. Cerpen menjadi media untuk meninggalkan tanda melalui cerita fantasi maupun pasti. Bertemakan <i>"Break My Fear, Build My Confidence"</i>, ciptakan cerpen yang menarik dan menginspirasi.</p>
                 <div class="flex justify-end mt-4">
-                    <button class="card-button">Ditutup</button>
+                    <button class="card-button bg-gray-300">Ditutup</button>
                 </div>
             </div>
         </div>
@@ -146,7 +145,7 @@
                 <h4 class="card-title">Videografi</h4>
                 <p class="leading-relaxed">Paduan antara visual dan audio dalam suatu jalin cerita dapat menggugah perasaan para pemirsanya. Menyisipkan nilai-nilai baik dalam suatu karya video barangkali dapat menjadikan nilai-nilai tersebut lebih mudah dipahami. Dengan tema <i>"Self Confidence"</i>, tebarkan rasa percaya diri melalui karya video.</p>
                 <div class="flex-1 w-full flex justify-end mt-4">
-                    <button class="card-button">Ditutup</button>
+                    <button class="card-button bg-gray-300">Ditutup</button>
                 </div>
             </div>
         </div>
@@ -156,7 +155,7 @@
 <section id="seminar" class="mt-16">
     <h2 class="text-center text-lg text-lilie-primary font-bold mb-4">SEMINAR</h2>
     <div class="grid grid-cols-12 my-4">
-        <a href="/liliefors" class="card-button col-span-12 flex justify-center md:col-start-5 md:col-end-9 lg:col-start-6 lg:col-end-8">DAFTAR SEMINAR!</a>
+        <a href="/liliefors" class="card-button bg-lilie-warning col-span-12 flex justify-center md:col-start-5 md:col-end-9 lg:col-start-6 lg:col-end-8">DAFTAR SEMINAR!</a>
     </div>
     <div class="grid grid-cols-12 gap-y-4 md:gap-4">
         <div class="relative rounded-sm col-span-12 overflow-hidden bg-white shadow-sm md:col-span-6 lg:col-span-3">
