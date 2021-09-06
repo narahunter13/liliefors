@@ -103,14 +103,14 @@
     <p class="col-span-12 text-justify leading-relaxed lg:col-span-8 lg:self-center"><b>Liliefors</b> adalah akronim dari Klinik Penulisan, Desain Grafis, dan Fotografi STIS. Acara Liliefors 2021 merupakan rangkaian kegiatan <i>Online Talkshow</i> yang mempertemukan peserta dengan para pembicara sesuai dengan bidangnya. Mengusung tema <b><i>“Be Confident and Impact Others”</i></b>, Liliefors diharapkan dapat memberikan kepercayaan diri dan meningkatkan motivasi peserta untuk berkarya dan memberi manfaat bagi sesama. Selain itu, Liliefors juga dikemas secara interaktif, menarik, dan tentunya menginspirasi.</p>
 </section>
 
-<section class="mt-16" id="kompetisi">
+<!-- <section class="mt-16" id="kompetisi">
     <h2 class="text-center text-lg text-lilie-primary font-bold">KOMPETISI</h2>
     <div class="grid grid-cols-12">
         <p class="leading-relaxed col-span-12 text-justify text-lilie-primary text-sm my-8"><b><i>Liliefors Competition</i></b> merupakan ajang perlombaan tingkat nasional yang meliputi bidang kepenulisan (cerita pendek), fotografi (foto), desain grafis (desain poster), dan videografi (video kreatif). Kompetisi dengan tema <i>"Be Confident and Impact Others"</i> ini bertujuan agar para peserta berani berkarya dalam menuangkan ide dan kreativitasnya. Selain itu, ajang yang terbuka untuk SMA/sederajat dan umum ini bermaksud untuk menemukan karya terbaik yang bermanfaat bagi banyak orang. Karya-karya yang disalurkan akan diseleksi dan dipilih menjadi juara satu, dua, tiga, dan favorit untuk setiap cabang lomba berdasarkan syarat dan ketentuan yang berlaku. Secara otomatis, para peserta Liliecomp akan terdaftar juga dalam kegiatan Liliefors.</p>
     </div>
     <div class="grid grid-cols-12 gap-y-4 md:gap-4">
         <div class="card">
-            <?= $this->include('svg/dg'); ?>
+            <= $this->include('svg/dg'); ?>
             <div class="card-body">
                 <h4 class="card-title">Desain Grafis</h4>
                 <p class="leading-relaxed">Manusia dapat menangkap suatu nilai atau pesan tak hanya melalui kata, tetapi juga rupa. Rangkaian bentuk dan warna yang harmonis dengan sedikit sentuhan tipografi yang apik dapat menjadi sarana penyampai pesan untuk sesama. Dengan tema <i>"I Am Beyond Myself"</i>, sampaikan pesanmu melalui desain poster yang sarat makna.</p>
@@ -120,7 +120,7 @@
             </div>
         </div>
         <div class="card">
-            <?= $this->include('svg/fg'); ?>
+            <= $this->include('svg/fg'); ?>
             <div class="card-body">
                 <h4 class="card-title">Fotografi</h4>
                 <p class="leading-relaxed">Keadaan itu dinamis dan terikat waktu. Foto mengubahnya menjadi statis di satu waktu tertentu. Foto adalah media berbentuk dua dimensi yang menangkap momen tanpa suara dengan pesan dan sejarah. Sejalan dengan tema <i>"Inhale Confidence, Exhale Diffidence"</i>, tangkap dan abadikan momen dalam suatu foto nan inspiratif.</p>
@@ -130,7 +130,7 @@
             </div>
         </div>
         <div class="card">
-            <?= $this->include('svg/rp'); ?>
+            <= $this->include('svg/rp'); ?>
             <div class="card-body">
                 <h4 class="card-title">Penulisan</h4>
                 <p class="leading-relaxed">Nama manusia dapat abadi dan dikenang melalui karya, tak terkecuali karya tulis. Cerpen hanyalah satu di antara beragam bentuk karya tulis. Cerpen menjadi media untuk meninggalkan tanda melalui cerita fantasi maupun pasti. Bertemakan <i>"Break My Fear, Build My Confidence"</i>, ciptakan cerpen yang menarik dan menginspirasi.</p>
@@ -140,7 +140,7 @@
             </div>
         </div>
         <div class="card">
-            <?= $this->include('svg/vg'); ?>
+            <= $this->include('svg/vg'); ?>
             <div class="card-body">
                 <h4 class="card-title">Videografi</h4>
                 <p class="leading-relaxed">Paduan antara visual dan audio dalam suatu jalin cerita dapat menggugah perasaan para pemirsanya. Menyisipkan nilai-nilai baik dalam suatu karya video barangkali dapat menjadikan nilai-nilai tersebut lebih mudah dipahami. Dengan tema <i>"Self Confidence"</i>, tebarkan rasa percaya diri melalui karya video.</p>
@@ -149,6 +149,18 @@
                 </div>
             </div>
         </div>
+    </div>
+</section> -->
+
+<section id="karya" class="mt-16">
+    <h2 class="text-center text-lg text-lilie-primary font-bold mb-4">KARYA PENULISAN</h2>
+    <div class="flex flex-col items-center w-full text-lilie-primary">
+        <a class="p-2 bg-white shadow-sm rounded-sm my-2 text-justify font-thin w-full" href="<?= WRITEPATH . 'uploads\1.pdf' ?>">Fobia dan Indahnya Pendakian<br><br>Karya: Aji Santoso</a>
+        <a class="p-2 bg-white shadow-sm rounded-sm my-2 text-justify font-thin w-full" href="<?= WRITEPATH . 'uploads\2.pdf' ?>">Cantik<br><br>Karya: Delia Putri Ernanda Cahyono</a>
+        <a class="p-2 bg-white shadow-sm rounded-sm my-2 text-justify font-thin w-full" href="<?= WRITEPATH . 'uploads\3.pdf' ?>">Ratapan Positif Gendis, Gadis Pelosok Desa<br><br>Karya: Dliya Fathiyyah Fatin</a>
+        <a class="p-2 bg-white shadow-sm rounded-sm my-2 text-justify font-thin w-full" href="<?= WRITEPATH . 'uploads\4.pdf' ?>">Biola<br><br>Karya: Muhammad Zidan Nuralifian</a>
+        <a class="p-2 bg-white shadow-sm rounded-sm my-2 text-justify font-thin w-full" href="<?= WRITEPATH . 'uploads\5.pdf' ?>">Nilai Diri<br><br>Karya: Rahmah Dwi Lutfillah</a>
+        <a class="p-2 bg-white shadow-sm rounded-sm my-2 text-justify font-thin w-full" href="<?= WRITEPATH . 'uploads\6.pdf' ?>">Alter Ego<br><br>Karya: Siti Nurhaliza S</a>
     </div>
 </section>
 
