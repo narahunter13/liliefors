@@ -155,12 +155,12 @@
 <section id="karya" class="mt-16">
     <h2 class="text-center text-lg text-lilie-primary font-bold mb-4">KARYA PENULISAN</h2>
     <div class="flex flex-col items-center w-full text-lilie-primary">
-        <a class="p-2 bg-white shadow-sm rounded-sm my-2 text-justify font-thin w-full" href="<?= WRITEPATH . 'uploads\1.pdf' ?>">Fobia dan Indahnya Pendakian<br><br>Karya: Aji Santoso</a>
-        <a class="p-2 bg-white shadow-sm rounded-sm my-2 text-justify font-thin w-full" href="<?= WRITEPATH . 'uploads\2.pdf' ?>">Cantik<br><br>Karya: Delia Putri Ernanda Cahyono</a>
-        <a class="p-2 bg-white shadow-sm rounded-sm my-2 text-justify font-thin w-full" href="<?= WRITEPATH . 'uploads\3.pdf' ?>">Ratapan Positif Gendis, Gadis Pelosok Desa<br><br>Karya: Dliya Fathiyyah Fatin</a>
-        <a class="p-2 bg-white shadow-sm rounded-sm my-2 text-justify font-thin w-full" href="<?= WRITEPATH . 'uploads\4.pdf' ?>">Biola<br><br>Karya: Muhammad Zidan Nuralifian</a>
-        <a class="p-2 bg-white shadow-sm rounded-sm my-2 text-justify font-thin w-full" href="<?= WRITEPATH . 'uploads\5.pdf' ?>">Nilai Diri<br><br>Karya: Rahmah Dwi Lutfillah</a>
-        <a class="p-2 bg-white shadow-sm rounded-sm my-2 text-justify font-thin w-full" href="<?= WRITEPATH . 'uploads\6.pdf' ?>">Alter Ego<br><br>Karya: Siti Nurhaliza S</a>
+        <a class="p-2 bg-white shadow-sm rounded-sm my-2 text-justify font-thin w-full" href="<?= base_url('uploads/1.pdf') ?>">Fobia dan Indahnya Pendakian<br><br>Karya: Aji Santoso</a>
+        <a class="p-2 bg-white shadow-sm rounded-sm my-2 text-justify font-thin w-full" href="<?= base_url('uploads/2.pdf') ?>">Cantik<br><br>Karya: Delia Putri Ernanda Cahyono</a>
+        <a class="p-2 bg-white shadow-sm rounded-sm my-2 text-justify font-thin w-full" href="<?= base_url('uploads/3.pdf') ?>">Ratapan Positif Gendis, Gadis Pelosok Desa<br><br>Karya: Dliya Fathiyyah Fatin</a>
+        <a class="p-2 bg-white shadow-sm rounded-sm my-2 text-justify font-thin w-full" href="<?= base_url('uploads/4.pdf') ?>">Biola<br><br>Karya: Muhammad Zidan Nuralifian</a>
+        <a class="p-2 bg-white shadow-sm rounded-sm my-2 text-justify font-thin w-full" href="<?= base_url('uploads/5.pdf') ?>">Nilai Diri<br><br>Karya: Rahmah Dwi Lutfillah</a>
+        <a class="p-2 bg-white shadow-sm rounded-sm my-2 text-justify font-thin w-full" href="<?= base_url('uploads/6.pdf') ?>">Alter Ego<br><br>Karya: Siti Nurhaliza S</a>
     </div>
 </section>
 
