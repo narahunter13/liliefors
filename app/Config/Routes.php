@@ -78,9 +78,9 @@ $routes->get('/user/pengumuman', 'User\Pengumuman::index', ['filter' => 'cek_use
 $routes->get('/user/linimasa', 'User\Linimasa::index', ['filter' => 'cek_user']);
 
 // Liliecomp
-$routes->addRedirect('/liliecomp', '/#kompetisi');
-$routes->get('/liliefors', 'liliecomp\Liliefors::index');
-$routes->post('/liliefors/daftar', 'liliecomp\Liliefors::daftar');
+// $routes->addRedirect('/liliecomp', '/#kompetisi');
+// $routes->get('/liliefors', 'liliecomp\Liliefors::index');
+// $routes->post('/liliefors/daftar', 'liliecomp\Liliefors::daftar');
 
 // API Referal
 $routes->resource('api/referal', ['controller' => 'Api\Referal']);

@@ -166,9 +166,9 @@
 
 <section id="seminar" class="mt-16">
     <h2 class="text-center text-lg text-lilie-primary font-bold mb-4">SEMINAR</h2>
-    <div class="grid grid-cols-12 my-4">
+    <!-- <div class="grid grid-cols-12 my-4">
         <a href="/liliefors" class="card-button bg-lilie-warning col-span-12 flex justify-center md:col-start-5 md:col-end-9 lg:col-start-6 lg:col-end-8">DAFTAR SEMINAR!</a>
-    </div>
+    </div> -->
     <div class="grid grid-cols-12 gap-y-4 md:gap-4">
         <div class="relative rounded-sm col-span-12 overflow-hidden bg-white shadow-sm md:col-span-6 lg:col-span-3">
             <img class="w-full h-auto" src="/assets/img/pembicara-1.jpg" alt="Desain Grafis">
